@@ -114,3 +114,6 @@ Work through slides sequentially. For each slide:
 - [ ] MVP specificity — конкретный список coverage items (tyres ✅, windscreen ✅, personal belongings ❌ + почему), конкретный launch market с обоснованием, конкретный checkout UX flow в 3-4 шага (слайд 12)
 - [ ] Financial model — сквозной numerical example: 1 booking → pricing → cost → margin. Scenario table: pessimistic / base / optimistic. Comparison с industry benchmarks (excess insurance margins typically 50-70%) (слайд 8)
 - [ ] Sincera advantage — явно артикулировать почему in-house insurance company меняет всё: скорость итераций, data loop (claims → product → pricing), margin control vs external underwriter model (слайды 6, 8)
+
+### УТП
+Должно быть понятно чем будем отличаться от конкурентов
