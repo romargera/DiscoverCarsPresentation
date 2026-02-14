@@ -1,0 +1,156 @@
+/* DiscoverCars Presentation Theme
+   Inspired by labs.google.com/mariner — dark, premium, minimal */
+
+/* ============================================
+   CSS VARIABLES (Design Tokens)
+   ============================================ */
+:root {
+  /* Background & Surface */
+  --bg-primary: #0a0a0f;
+  --bg-surface: rgba(255, 255, 255, 0.04);
+  --bg-surface-hover: rgba(255, 255, 255, 0.08);
+
+  /* Text */
+  --text-primary: #f0f0f5;
+  --text-secondary: rgba(240, 240, 245, 0.65);
+  --text-muted: rgba(240, 240, 245, 0.4);
+
+  /* Accent */
+  --accent-blue: #7ba4f7;
+  --accent-purple: #c49bff;
+  --accent-gradient: linear-gradient(135deg, #7ba4f7 0%, #c49bff 100%);
+
+  /* Stakeholder Colors */
+  --color-customer: #5b9cf7;
+  --color-discovercars: #4cd9a0;
+  --color-sincera: #b388ff;
+  --color-merchants: #ffb74d;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Borders & Effects */
+  --border-subtle: 1px solid rgba(255, 255, 255, 0.08);
+  --border-radius: 12px;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ============================================
+   BASE OVERRIDES
+   ============================================ */
+.reveal {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-primary);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  padding: 20px 30px;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+.reveal h1 {
+  font-size: 1.8em;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+
+.reveal h3 {
+  font-size: 1.1em;
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.reveal h4 {
+  font-size: 0.9em;
+  font-weight: var(--font-weight-medium);
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+}
+
+.reveal p {
+  font-size: 0.85em;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   SLIDE 1: TITLE
+   ============================================ */
+.title-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  gap: 8px;
+}
+
+.title-slide h1 {
+  font-size: 2.2em;
+  margin: 10px 0;
+}
+
+.title-label {
+  font-size: 0.75em;
+  font-weight: var(--font-weight-medium);
+  color: var(--accent-blue);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title-subtitle {
+  font-size: 0.95em;
+  color: var(--text-secondary);
+  font-weight: var(--font-weight-light);
+  margin: 0;
+}
+
+.title-author {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: var(--border-subtle);
+  text-align: center;
+}
+
+.title-author .author-name {
+  font-size: 0.85em;
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+  margin: 0 0 4px 0;
+}
+
+.title-author .author-date {
+  font-size: 0.75em;
+  color: var(--text-muted);
+  margin: 0;
+}
