@@ -1,0 +1,42 @@
+Category,Coverage,Presence,DiscoverCars,Rentalcars,EconomyBookings,Carjet,Auto Europe,Enterprise,Hertz,Avis/Budget,Sixt
+Vehicle Risk,CDW,Must-have (9/9),Full,Full,Full,Full,Full (€1K excess),"DW (waiver, not insurance)",LDW,LDW,Yes
+Vehicle Risk,LDW,Must-have (9/9),Full,Full,Full,Full,Full,DW includes loss/theft,LDW,LDW,Yes
+Vehicle Risk,TP (Theft),Must-have (9/9),Bundled,Theft,Stolen,Bundled,Full (€1K),In DW (conditions),In LDW,In LDW,Included
+Vehicle Risk,Super CDW / Excess Reduction,Must-have (9/9),Full Coverage,Full,Full,€10K,Excess Refund,Extended Protection (EP),LDW “all damage”,LDW Premium,Limited
+Vehicle Risk,Tire & Windshield,Nice-to-have (8/9),Full,Full,Full,€10K,Wheels/Glass,DW on-road only; not explicit,PERS: tires,No,Limited
+Vehicle Risk,Underbody & Roof,Nice-to-have (7/9),Full,Full,Full,€10K,Roof/Undercarriage,DW on-road only; off-road excluded; overhead excluded,❓,No,Limited
+Vehicle Risk,Interior Protection,Nice-to-have (0/9),No,No,No,No,No,No,No,No,No
+Vehicle Risk,Key Loss & Lockout,Nice-to-have (6/9),Full,Lost keys,Key + locks,€600,No,EXCLUDED (keys/fobs/EV cable),PERS,No,No
+Vehicle Risk,Misfuelling,Nice-to-have (4/9),Full,No,No,€500,No,EXCLUDED (misfuelling),PERS: empty tank,No,No
+Vehicle Risk,Mechanical / Battery / Fluids,Nice-to-have (4/9),Mechanical parts only if accident/collision,No,"Engine, clutch",Battery €500 only; mechanical breakdown excluded,No,EXCLUDED (fluids / warning lamps),PERS: dead battery,No,No
+Vehicle Risk,Natural Weather / Civil Unrest,Nice-to-have (1/9),No,No,No,€10K,No,EXCLUDED (riots),No,No,No
+Vehicle Risk,Overhead Clearance Damage,Nice-to-have (1/9),No,No,No,No,No,EXCLUDED,No,No,No
+Vehicle Risk,EV Charging Cable,Nice-to-have (1/9),No,No,No,No,No,EXCLUDED,No,No,No
+Vehicle Risk,Damage Add'l Items (GPS/Seat),Nice-to-have (1/9),No,No,No,No,Yes (unique),No,No,No,No
+Vehicle Risk,Fire Insurance,Nice-to-have (1/9),No,No,No,No,Yes,No,No,No,No
+Vehicle Risk,3rd-party Excess Insurance (independent),Nice-to-have (3/9),Partner,❓,No,No,Strong,No (DW excludes TPL),No,Partnerships,No
+Vehicle Risk,Admin Fees,Nice-to-have (4/9),Covered (damage-related),Covered (admin/handling fees),No,€500,No,DW waives $150 admin,No,No,No
+Vehicle Risk,Loss of Use,Nice-to-have (3/9),Covered (immobilization),Loss of use/demurrage,No,No,No,DW waives (formula),No,No,No
+Vehicle Risk,Diminishment of Value,Nice-to-have (1/9),No,No,No,No,No,DW waives 10% ($500+),No,No,No
+Third-Party Liability,TPL (base),Must-have (9/9),Via partners,Via partners,Via partners,Via partners,Liability Insurance,Law minimum only; renter’s own insurance primary,Law minimum (varies; often secondary),SLP $500K,Yes
+Third-Party Liability,SLI / ALI / SLP,Must-have (9/9),Tier-based,Limited,Limited,Limited,Multiple,SLP: $300K (cars) / $1M (trucks),LIS up to $300K (limits may vary),ALI $500K–1M,Yes (high)
+Personal Risk,PAI,Nice-to-have (4/9),No,Via Booking,No,No,No,PAI: $225K US / $500K CA,PAI+PEC,Yes,Limited
+Personal Risk,PAI — Death (renter),Nice-to-have (1/9),No,❓,No,No,No,$175K US / $250K CA,❓,❓,❓
+Personal Risk,PAI — Medical (renter),Nice-to-have (1/9),No,❓,No,No,No,"$2,500 US / $5,000 CA",❓,❓,❓
+Personal Risk,PAI — Ambulance,Nice-to-have (1/9),No,❓,No,No,No,$250 US,❓,❓,❓
+Personal Risk,PAI — Renter scope,Nice-to-have (1/9),No,❓,No,No,No,24/7 during rental (even outside vehicle),❓,❓,❓
+Personal Risk,Travel Medical,Nice-to-have (3/9),No,Via Booking,No,No,No,No,No,No,Limited
+Personal Effects,PEC,Nice-to-have (6/9),Limited,Personal possessions,No,€300,No,Personal Effects Coverage (separate policy),PAI+PEC,PEC available,Limited
+Trip Risk,Trip Cancellation,Nice-to-have (1/9),No,Flight/accommodation,No,No,No,No,No,No,No
+Trip Risk,Trip Interruption / Curtailment,Nice-to-have (3/9),No (not in Full Coverage),Flight/accommodation,No,€300,Unused days (medical),No,No,No,No
+Trip Risk,Car Rental Cancellation,Nice-to-have (4/9),Emerging,No,Last Minute (до 1ч),€500,No,Free Cancellation Anytime (free),No,Limited,No
+Trip Risk,Delay / Missed Connection,Nice-to-have (1/9),No,Via Booking,No,No,No,No,No,No,No
+Financial Risk,Deposit Protection,Nice-to-have (2/9),No,No,Partial,No,Strong,No,No,No,No
+Financial Risk,Admin Fees Cap,Nice-to-have (4/9),Yes,Yes,No,€500,No,Yes (waives $150),No,No,No
+Financial Risk,Loss of Use,Nice-to-have (3/9),Covered (immobilization),Loss of use/demurrage,No,No,No,DW waives (formula),No,No,No
+Financial Risk,Diminishment of Value,Nice-to-have (1/9),No,No,No,No,No,DW waives 10% — unique,No,No,No
+Financial Risk,Drop-Off Charges,Nice-to-have (1/9),No,No,No,€300,No,No,No,No,No
+Financial Risk,VAT Transparency,Nice-to-have (1/9),No,No,No,No,Yes,No,No,No,No
+Roadside & Assistance,Roadside Assistance + Towing,Nice-to-have (9/9),Full,Towing,General,€750,Breakdown + towing,Roadside Protection (own policy),PERS $29.97,Via supplier,Via supplier
+Roadside & Assistance,Alternative Vehicle + Taxi,Nice-to-have (1/9),Taxi (from accident),No,No,No,No,No,No,No,No
+Roadside & Assistance,Emergency Accommodation,Nice-to-have (0/9),No (hotel excluded),No,No,No,No,No,No,No,No
