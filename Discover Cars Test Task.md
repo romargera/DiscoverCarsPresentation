@@ -21,7 +21,7 @@ in a responsible, compliant, and commercially viable way. **Please keep the scop
 Please cover the following areas:  
 • Customer problem & opportunity  
 What customer problem does this solve, and why is it valuable for our marketplace?  
-• Business rationale  
+• Business rationale   
 How does this product create business value? Use simple assumptions and reasonable ranges  
 rather than exact internal data.  
 • Trust & compliance  
