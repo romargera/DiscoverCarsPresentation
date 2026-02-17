@@ -18,3 +18,10 @@ Backlog
 * Offer on the Post-trip stage
 * Longtearm deals or subsribtion for frequent travelers
 * B2B: white label / co-branded / well-balanced revenue share offer for SMBs
+
+
+
+
+
+Заметки для себя:
+https://covergenius.com/

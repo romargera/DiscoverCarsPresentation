@@ -470,7 +470,7 @@
 
 /* Notes section (reuses pain-notes pattern) */
 .dir-notes {
-  margin-top: 4px;
+  margin-top: 8px;
   padding: 4px 8px;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -478,12 +478,10 @@
 }
 
 .dir-notes-title {
-  font-size: 0.35em;
-  font-weight: var(--font-weight-semibold);
+  font-size: 0.3em;
+  font-weight: var(--font-weight-bold);
   color: var(--text-muted);
   margin: 0 0 2px 0;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .dir-notes ul {
@@ -497,6 +495,32 @@
   color: var(--text-muted);
   line-height: 1.3;
   margin-bottom: 1px;
+}
+
+.dir-notes li:first-child {
+  list-style: none;
+  margin-left: -12px;
+}
+
+.dir-notes li a {
+  color: #64b5f6;
+  text-decoration: underline;
+}
+
+.dir-notes li.notes-label,
+.pain-notes li.notes-label {
+  list-style: none;
+  margin-left: -12px;
+}
+
+/* Reveal.js markdown parser strips <li> wrappers, leaving bare <strong> inside <ul>.
+   Force same font-size and styling as li items. */
+.pain-notes ul>strong,
+.dir-notes ul>strong {
+  font-size: 0.3em;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 2px;
 }
 
 /* ============================================
@@ -536,6 +560,11 @@
 
 .pain-table .col-rank {
   width: 24px;
+  text-align: center;
+}
+
+.pain-table .col-num {
+  width: 20px;
   text-align: center;
 }
 
@@ -642,7 +671,7 @@
 
 /* Focus box → Notes section */
 .pain-notes {
-  margin-top: 4px;
+  margin-top: 8px;
   padding: 4px 8px;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -650,12 +679,10 @@
 }
 
 .pain-notes-title {
-  font-size: 0.35em;
-  font-weight: var(--font-weight-semibold);
+  font-size: 0.3em;
+  font-weight: var(--font-weight-bold);
   color: var(--text-muted);
   margin: 0 0 2px 0;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .pain-notes ul {
@@ -677,4 +704,1129 @@
 
 .pain-notes li em {
   color: rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   SLIDE 5: CHOSEN CONCEPT
+   ============================================ */
+.concept-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.concept-pain {
+  text-align: left;
+}
+
+.concept-story {
+  font-size: 0.32em;
+  color: var(--text-muted);
+  line-height: 1.35;
+  margin: 0 0 4px 0;
+  font-style: italic;
+}
+
+.concept-story strong {
+  color: #ef5350;
+  font-style: normal;
+}
+
+.concept-jtbd {
+  font-size: 0.3em;
+  color: #81c784;
+  line-height: 1.3;
+  margin: 0;
+  padding: 4px 6px;
+  background: rgba(129, 199, 132, 0.08);
+  border-left: 2px solid #81c784;
+  border-radius: 0 4px 4px 0;
+}
+
+.concept-coverage {
+  text-align: left;
+}
+
+.concept-scope {
+  font-size: 0.26em;
+  color: rgba(255, 255, 255, 0.35);
+  margin: 2px 0 0 0;
+  font-style: italic;
+}
+
+.concept-gets-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.concept-gets {
+  text-align: left;
+}
+
+.reveal h4.concept-heading {
+  font-size: 0.4em;
+  color: #64b5f6;
+  margin: 3px 0 2px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.reveal h4.concept-heading.why-heading {
+  margin-top: 2px;
+  text-align: left;
+}
+
+.concept-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 3px;
+}
+
+.concept-list-table td {
+  font-size: 0.3em;
+  color: var(--text-muted);
+  line-height: 1.3;
+  padding: 1px 4px;
+  border: none;
+}
+
+.concept-list-table tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.why-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+.why-icon {
+  font-size: 0.55em;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.why-card p {
+  font-size: 0.3em;
+  color: var(--text-muted);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.why-card strong {
+  color: #e0e0e0;
+}
+
+/* ============================================
+   SLIDE 6: MARKET OPPORTUNITY & STRATEGIC FIT
+   ============================================ */
+.mkt-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.mkt-cell {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.reveal h4.mkt-heading {
+  font-size: 0.38em;
+  color: #64b5f6;
+  margin: 0 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.mkt-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2px;
+}
+
+.mkt-table td {
+  font-size: 0.28em;
+  color: var(--text-muted);
+  line-height: 1.25;
+  padding: 1px 3px;
+  border: none;
+  vertical-align: top;
+}
+
+/* TAM/SAM/SOM labels */
+.mkt-label {
+  font-weight: 700;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.mkt-tam .mkt-label {
+  color: #64b5f6;
+}
+
+.mkt-sam .mkt-label {
+  color: #81c784;
+}
+
+.mkt-som .mkt-label {
+  color: #ffb74d;
+}
+
+.mkt-value {
+  font-weight: 700;
+  white-space: nowrap;
+  width: 70px;
+  color: #e0e0e0;
+}
+
+.mkt-tam .mkt-value {
+  color: #64b5f6;
+}
+
+.mkt-sam .mkt-value {
+  color: #81c784;
+}
+
+.mkt-som .mkt-value {
+  color: #ffb74d;
+}
+
+.mkt-desc {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* Assumption tag */
+.tag-a {
+  display: inline-block;
+  font-size: 0.8em;
+  background: rgba(255, 183, 77, 0.15);
+  color: #ffb74d;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* Cross-check footnote */
+.mkt-xcheck {
+  font-size: 0.24em;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 2px 0 0 0;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+/* Gap analysis table */
+.mkt-gap-name {
+  font-weight: 600;
+  color: #e0e0e0;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.mkt-gap-val {
+  font-weight: 700;
+  white-space: nowrap;
+  width: 45px;
+  text-align: center;
+}
+
+.mkt-gap-no {
+  color: #ef5350;
+}
+
+.mkt-gap-partial {
+  color: #ffb74d;
+}
+
+.mkt-gap-note {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Sincera advantage table */
+.mkt-adv-icon {
+  width: 20px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.mkt-adv-title {
+  font-weight: 700;
+  color: #81c784;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.mkt-adv-desc {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* Cannibalization table */
+.mkt-cann-q {
+  font-weight: 600;
+  color: #ffb74d;
+  white-space: nowrap;
+  width: 80px;
+}
+
+/* ============================================
+   SLIDE 7: CUSTOMER TRUST
+   ============================================ */
+.trust-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.trust-cell {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.reveal h4.trust-heading {
+  font-size: 0.38em;
+  color: #64b5f6;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.trust-text {
+  font-size: 0.32em;
+  color: var(--text-muted);
+  margin: 0 0 4px 0;
+}
+
+.trust-list {
+  font-size: 0.3em;
+  color: #e0e0e0;
+  margin: 0 0 4px 1em;
+  line-height: 1.4;
+}
+
+.trust-source {
+  font-size: 0.24em;
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* Trust Equation */
+.trust-formula {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 8px 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.tf-item {
+  font-size: 0.35em;
+  color: #81c784;
+  font-weight: 600;
+}
+
+.tf-op {
+  font-size: 0.35em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.tf-result {
+  font-size: 0.45em;
+  color: #64b5f6;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.trust-impact {
+  font-size: 0.28em;
+  color: var(--text-muted);
+  line-height: 1.3;
+  margin-top: 8px;
+}
+
+.trust-impact p {
+  margin: 0 0 2px 0;
+  color: #e0e0e0;
+}
+
+.trust-impact ul {
+  margin: 0 0 0 1em;
+}
+
+/* Comparison Tables */
+.trust-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trust-table td {
+  padding: 3px 2px;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.trust-table tr:last-child td {
+  border-bottom: none;
+}
+
+.tt-icon {
+  width: 20px;
+  font-size: 0.4em;
+  text-align: center;
+}
+
+.tt-text {
+  font-size: 0.28em;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.3;
+}
+
+.tt-text strong {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.trust-old .tt-text strong {
+  color: #ffab91;
+}
+
+/* Reddish for old way */
+.trust-new .tt-text strong {
+  color: #81c784;
+}
+
+/* Greenish for new way */
+/* ============================================
+   SLIDE 8: UNIT ECONOMICS
+   ============================================ */
+.unit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.unit-cell {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.reveal h4.unit-heading {
+  font-size: 0.38em;
+  color: #64b5f6;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  border-bottom: 1px solid rgba(68, 138, 255, 0.2);
+  padding-bottom: 2px;
+}
+
+.unit-note {
+  font-size: 0.24em;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  margin-top: 5px;
+  line-height: 1.25;
+}
+
+/* Unit Breakdown Bars */
+.ue-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 5px;
+}
+
+.ue-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.32em;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.ue-label {
+  color: #e0e0e0;
+}
+
+.ue-val {
+  font-weight: 700;
+  color: #fff;
+}
+
+.ue-val.red {
+  color: #ef5350;
+}
+
+.ue-val.green {
+  color: #81c784;
+}
+
+.price-bar {
+  border-left: 3px solid #64b5f6;
+}
+
+/* Blue */
+.loss-bar {
+  border-left: 3px solid #ef5350;
+  margin-left: 8px;
+}
+
+/* Red indent */
+.ops-bar {
+  border-left: 3px solid #ef5350;
+  margin-left: 8px;
+}
+
+.margin-bar {
+  border-left: 3px solid #81c784;
+  margin-top: 4px;
+  background: rgba(129, 199, 132, 0.1);
+}
+
+/* AI Flow */
+.ai-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  gap: 4px;
+}
+
+.ai-inputs {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.24em;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 2px;
+}
+
+.ai-brain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ba68c8;
+}
+
+.ai-icon {
+  font-size: 0.8em;
+}
+
+.ai-text {
+  font-size: 0.22em;
+  font-weight: 700;
+}
+
+.ai-output {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.ai-val {
+  font-size: 0.4em;
+  color: #64b5f6;
+  font-weight: 700;
+}
+
+.ai-sub {
+  font-size: 0.22em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Sensitivity Table */
+.sens-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 4px;
+}
+
+.sens-table th,
+.sens-table td {
+  font-size: 0.26em;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sens-table th {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+}
+
+.corner-th {
+  background: transparent;
+  border: none;
+  font-size: 0.22em;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: left;
+}
+
+.row-th {
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.cell-val {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cell-val.base-case {
+  background: rgba(129, 199, 132, 0.2);
+  color: #81c784;
+  font-weight: 700;
+  border: 1px solid #81c784;
+}
+
+/* Scaling Table */
+.scale-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 4px;
+}
+
+.scale-table th {
+  font-size: 0.26em;
+  text-align: left;
+  color: #64b5f6;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2px;
+}
+
+.scale-table td {
+  font-size: 0.28em;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 3px 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.scale-net td {
+  font-weight: 700;
+  color: #81c784;
+  /* Net Profit row */
+  border-bottom: none;
+}
+
+/* ============================================
+   SLIDE 9: STAKEHOLDER VALUE
+   ============================================ */
+.stakeholder-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.sh-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Color themes */
+.sh-customer {
+  border-top: 3px solid #64b5f6;
+}
+
+.sh-dc {
+  border-top: 3px solid #81c784;
+}
+
+.sh-sincera {
+  border-top: 3px solid #ba68c8;
+}
+
+.sh-merchants {
+  border-top: 3px solid #ffb74d;
+}
+
+.sh-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.sh-icon {
+  font-size: 0.8em;
+}
+
+.reveal h4.sh-title {
+  font-size: 0.4em;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.sh-customer .sh-title {
+  color: #64b5f6;
+}
+
+.sh-dc .sh-title {
+  color: #81c784;
+}
+
+.sh-sincera .sh-title {
+  color: #ba68c8;
+}
+
+.sh-merchants .sh-title {
+  color: #ffb74d;
+}
+
+.sh-rental-red .sh-title {
+  color: #ef5350;
+  /* Red */
+}
+
+.sh-benefit {
+  font-size: 0.32em;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  margin: 0 0 10px 0;
+  line-height: 1.3;
+}
+
+.sh-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 6px;
+}
+
+.sh-metric {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sh-val {
+  font-size: 0.5em;
+  /* Big metric */
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+.sh-label {
+  font-size: 0.22em;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+/* Slide 5 Highlight Block */
+.concept-chosen-block {
+  background: rgba(129, 199, 132, 0.1);
+  border: 1px solid rgba(129, 199, 132, 0.3);
+  border-radius: 8px;
+  padding: 4px 12px;
+  /* Reduced height */
+  margin-bottom: 10px;
+  text-align: center;
+  /* Reverted width to full */
+}
+
+.dir-notes ul {
+  margin-left: 20px;
+}
+
+.dir-notes ul li,
+.dir-notes ul li:first-child {
+  list-style-type: disc !important;
+  margin-left: 0 !important;
+  padding-left: 4px;
+}
+
+.concept-chosen-block .concept-heading {
+  text-align: center !important;
+  margin-bottom: 4px;
+  color: #81c784 !important;
+  /* Force green heading */
+}
+
+.concept-text {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* New Slide 5 Layout */
+.concept-grid-new {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  /* Left col slightly wider for story? Or 1:1. 1.2:1 seems good */
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 5px;
+}
+
+.concept-col-left,
+.concept-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Pain Box styled like old JTBD */
+.concept-pain-new {
+  background: rgba(129, 199, 132, 0.08);
+  /* Green tint */
+  border-left: 3px solid #81c784;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 10px;
+}
+
+/* Story text inside Pain box */
+.concept-story-plain {
+  font-size: 0.32em;
+  color: #e0e0e0;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Highlight keywords in story if needed, but plain is fine */
+
+.concept-text-plain {
+  font-size: 0.32em;
+  color: #e0e0e0;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Headings in items */
+.concept-item .concept-heading {
+  margin-bottom: 4px !important;
+}
+
+/* Market Share Table (Slide 6) */
+.mkt-share-cell {
+  grid-column: 1 / -1;
+  /* Span full width */
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.share-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.65em;
+  margin-top: 10px;
+}
+
+.share-table th {
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 8px;
+  color: #aebfbe;
+  font-weight: 600;
+}
+
+.share-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.type-tag {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.type-tag.rental {
+  background: rgba(66, 165, 245, 0.2);
+  color: #90caf9;
+  border: 1px solid rgba(66, 165, 245, 0.4);
+}
+
+.type-tag.ota {
+  background: rgba(255, 167, 38, 0.2);
+  color: #ffcc80;
+  border: 1px solid rgba(255, 167, 38, 0.4);
+}
+
+.dc-row {
+  background: rgba(129, 199, 132, 0.15);
+  /* Slight green highlight */
+  border-left: 3px solid #81c784;
+}
+
+.dc-row td {
+  color: #fff;
+  font-weight: 500;
+}
+
+.mkt-share-note {
+  font-size: 0.55em;
+  margin-top: 10px;
+  color: #e0e0e0;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Execution Roadmap - Simple List */
+.roadmap-simple-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* Reduced gap */
+  margin-top: 20px;
+}
+
+.rm-item {
+  text-align: left;
+  padding-left: 10px;
+  border-left: 3px solid #81c784;
+  /* Default Green */
+}
+
+.rm-item.canary {
+  border-left-color: #ffca28;
+  /* Amber for Canary */
+}
+
+.rm-phase-title {
+  font-size: 0.35em;
+  /* Reduced from 0.8em */
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.rm-phase-date {
+  font-size: 0.3em;
+  /* Reduced from 0.7em */
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  margin-left: 6px;
+}
+
+.rm-phase-desc {
+  font-size: 0.3em;
+  /* Reduced from 0.7em */
+  color: #e0e0e0;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+
+/* Execution Roadmap Timeline */
+.roadmap-wrapper.small-blocks {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+  /* Tighter gap */
+  margin-top: 40px;
+  /* More space on top */
+}
+
+.rm-phase {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 12px;
+  position: relative;
+  min-height: 220px;
+  /* Detailed but compact */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Color Coding */
+.rm-phase.p0 {
+  border-top: 3px solid #64b5f6;
+}
+
+/* Blue - Validation */
+.rm-phase.p1 {
+  border-top: 3px solid #81c784;
+}
+
+/* Green - Build */
+.rm-phase.p1-canary {
+  border-top: 3px solid #ffca28;
+}
+
+/* Amber - Canary */
+.rm-phase.p1-analysis {
+  border-top: 3px solid #ff7043;
+}
+
+/* Orange - Analysis */
+.rm-phase.p2 {
+  border-top: 3px solid #ba68c8;
+}
+
+/* Purple - Scale */
+
+.rm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 8px;
+}
+
+.rm-tag {
+  font-size: 0.6em;
+  /* Increased from 0.45em */
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.rm-duration {
+  font-size: 0.6em;
+  /* Increased from 0.4em */
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+.rm-title {
+  font-size: 0.8em;
+  /* Increased from 0.55em */
+  color: #fff;
+  margin: 10px 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.rm-list {
+  font-size: 0.7em;
+  /* Compact list */
+  color: #e0e0e0;
+  margin: 0;
+  padding-left: 15px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.rm-list li {
+  margin-bottom: 6px;
+}
+
+.rm-gate {
+  margin-top: auto;
+  background: rgba(239, 83, 80, 0.1);
+  border: 1px dashed rgba(239, 83, 80, 0.6);
+  border-radius: 6px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gate-icon {
+  font-family: 'Material Icons';
+  /* Assuming Material Icons are available, otherwise use emoji or check available fonts */
+  font-size: 24px;
+  color: #ef5350;
+}
+
+/* Fallback for icon if font not loaded */
+.gate-icon::after {
+  content: "⚡";
+  /* Fallback content */
+  font-size: 1.2em;
+}
+
+.gate-criteria {
+  font-size: 0.38em;
+  color: #ffcdd2;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.gate-criteria strong {
+  color: #ef5350;
+  display: block;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.rm-arrow {
+  align-self: center;
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.15);
+  font-weight: 300;
+  margin: 0 -2px;
+}
+
+.rm-loop {
+  margin-top: auto;
+  padding-top: 15px;
+  font-size: 0.45em;
+  color: #ba68c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.loop-icon {
+  font-family: 'Material Icons';
+  font-size: 18px;
 }
