@@ -322,30 +322,28 @@
 ---
 <!-- .slide: id="chosen-concept" -->
 
-## WHAT: Chosen Direction
+## WHAT: Summary
 
 <div class="concept-chosen-block">
 <h4 class="concept-heading">Direction</h4>
 <p class="concept-text">Trip Disruption Protection</p>
 </div>
 
-<div class="concept-quote-container">
-<!-- PAIN STORY -->
-<div class="story-card">
-  <div class="story-label">The Problem (Pain)</div>
-  <p class="story-text">
-    "You booked a car at Malaga Airport 3 weeks ago. Flight delayed 6 hours. You land at 23:40 — rental desk closed, car released. €120 no-show fee. Next available car — 2× the price. Your prepaid booking? Non-refundable. Total loss: €350+ through no fault of yours."
-  </p>
+<div class="concept-grid-new">
+<!-- LEFT COLUMN -->
+<div class="concept-col-left">
+<div class="concept-item">
+<h4 class="concept-heading">Pain</h4>
+<p class="concept-text-plain">You booked a car at Malaga Airport 3 weeks ago. Flight delayed 6 hours. You land at 23:40 — rental desk closed, car released. €120 no-show fee. Next available car — 2× the price. Your prepaid booking? Non-refundable. Total loss: €350+ through no fault of yours.</p>
 </div>
 
-<!-- JTBD STORY -->
-<div class="story-card jtbd">
-  <div class="story-label">The Need (JTBD)</div>
-  <p class="story-text">
-    "When my travel plans are disrupted, I want automatic financial protection for my rental costs, so I can rebook without stress and not lose money on things I can't control."
-  </p>
+<div class="concept-item">
+<h4 class="concept-heading">JTBD</h4>
+<p class="concept-text-plain">When my travel plans are disrupted, I want automatic financial protection for my rental costs, so I can rebook without stress and not lose money on things I can't control.</p>
 </div>
 </div>
+
+<!-- RIGHT COLUMN REMOVED -->
 </div>
 
 
@@ -360,7 +358,7 @@
 ---
 <!-- .slide: id="market-opportunity" -->
 
-## WHY: Market Opportunity
+## WHY: Market Fit
 
 <div class="mkt-grid">
 <div class="mkt-cell">
@@ -403,110 +401,99 @@
 
 ## WHY: Summary & Goals
 
+<p class="summary-subtitle">Direction: Trip Disruption Protection</p>
 
-
-<div class="slide-7-container">
-<!-- LEFT COLUMN: CONCEPT PILLARS -->
-<div class="slide-7-left">
-  <!-- 0. Direction (New) -->
-  <div class="concept-pillar">
-    <h4>Direction</h4>
-    <div class="concept-pillar-list">
-      <div>Trip Disruption Protection</div>
-    </div>
-  </div>
-
-  <!-- 1. Strategic Rationale -->
-  <div class="concept-pillar">
-    <h4>Why This Direction First?</h4>
-    <div class="concept-pillar-list">
-      <div>High Revenue potential — low claims, high perceived value <span class="tag-a">A</span></div>
-      <div>Blue ocean — no competitor offers this <span class="tag-a">A</span></div>
-      <div>Claim paid in 48h → retention ↑ <span class="tag-a">A</span></div>
-      <div>Data flywheel — dynamic pricing → margin grows YoY <span class="tag-a">A</span></div>
-    </div>
-  </div>
-
-  <!-- 2. User Gets -->
-  <div class="concept-pillar">
-    <h4>User Gets</h4>
-    <div class="concept-pillar-list">
-      <div>Flight delay / cancellation → no-show fee reimbursed</div>
-      <div>Forced rebooking → price difference covered</div>
-      <div>Prepaid booking non-refundable → penalty reimbursed</div>
-    </div>
-  </div>
-
-  <!-- 3. Rental Gets -->
-  <div class="concept-pillar">
-    <h4>Rental Service Gets</h4>
-    <div class="concept-pillar-list">
-      <div>Fewer no-show disputes & chargebacks</div>
-      <div>Higher rebooking rate (coverage assurance)</div>
-      <div>Lower support load on disruption cases</div>
-    </div>
-  </div>
+<div class="stakeholder-grid">
+<!-- CUSTOMER -->
+<div class="sh-card sh-customer">
+<div class="sh-header">
+<span class="sh-icon">👤</span>
+<h4 class="sh-title">Customer (Blue)</h4>
+</div>
+<div class="sh-metric">
+<span class="sh-val">4.2+ <span class="tag-a">A</span></span>
+<span class="sh-label">CSAT Target</span>
+</div>
+<div class="sh-metric">
+<span class="sh-val"><2% <span class="tag-a">A</span></span>
+<span class="sh-label">Complaint Rate</span>
+</div>
+</div>
+<div class="sh-features" style="margin-top: 10px; font-size: 0.35em; color: rgba(255,255,255,0.8); line-height: 1.4;">
+<div style="margin-bottom: 4px;">• Flight delay / cancellation → no-show reimbursed</div>
+<div style="margin-bottom: 4px;">• Forced rebooking → price diff covered</div>
+<div>• Prepaid booking non-refundable → refunded</div>
+</div>
 </div>
 
-<!-- RIGHT COLUMN: GOALS (Stakeholders) -->
-<div class="slide-7-right">
-  <!-- CUSTOMER -->
-  <div class="sh-card sh-customer">
-    <div class="sh-header">
-      <span class="sh-icon">👤</span>
-      <h4 class="sh-title">Customer</h4>
-    </div>
-    <div class="sh-metrics">
-      <div class="sh-metric"><span class="sh-val">4.2+ <span class="tag-a">A</span></span><span class="sh-label">CSAT Target</span></div>
-      <div class="sh-metric"><span class="sh-val"><2% <span class="tag-a">A</span></span><span class="sh-label">Complaint Rate</span></div>
-    </div>
-  </div>
+<!-- DISCOVERCARS -->
+<div class="sh-card sh-dc">
+<div class="sh-header">
+<span class="sh-icon">🟢</span>
+<h4 class="sh-title">DiscoverCars (Green)</h4>
+</div>
+<div class="sh-metrics">
+<div class="sh-metric wide-metric">
+<span class="sh-val">€250K <span class="tag-a">A</span> <span class="sub-val">→</span> €2.5M+ <span class="tag-a">A</span></span>
+<span class="sh-label">Contribution Margin (Year 1 → Year 3)</span>
+</div>
+<div class="sh-metric wide-metric" style="align-items: flex-end; text-align: right;">
+<span class="sh-val">15% <span class="tag-a">A</span> <span class="sub-val">→</span> 25% <span class="tag-a">A</span></span>
+<span class="sh-label">Attach Rate (Year 1 → Year 3)</span>
+</div>
+</div>
+<div class="sh-features" style="margin-top: 10px; font-size: 0.35em; color: rgba(255,255,255,0.8); line-height: 1.4;">
+<div style="margin-bottom: 4px;">• High Revenue & Perceived Value</div>
+<div style="margin-bottom: 4px;">• Blue Ocean (No competitor offers this)</div>
+<div style="margin-bottom: 4px;">• Claim paid in 48h → Retention ↑</div>
+<div>• Data Flywheel → Margin grows YoY</div>
+</div>
+</div>
 
-  <!-- DISCOVERCARS -->
-  <div class="sh-card sh-dc">
-    <div class="sh-header">
-      <span class="sh-icon">🟢</span>
-      <h4 class="sh-title">DiscoverCars</h4>
-    </div>
-    <div class="sh-metrics">
-      <div class="sh-metric wide-metric">
-        <span class="sh-val">€250K <span class="tag-a">A</span> <span class="sub-val">→</span> €2.5M+ <span class="tag-a">A</span></span>
-        <span class="sh-label">Contribution Margin (Year 1 → Year 3)</span>
-      </div>
-      <div class="sh-metric wide-metric" style="align-items: flex-end; text-align: right;">
-        <span class="sh-val">15% <span class="tag-a">A</span> <span class="sub-val">→</span> 25% <span class="tag-a">A</span></span>
-        <span class="sh-label">Attach Rate (Year 1 → Year 3)</span>
-      </div>
-    </div>
-  </div>
+<!-- SINCERA -->
+<div class="sh-card sh-sincera">
+<div class="sh-header">
+<span class="sh-icon">🟣</span>
+<h4 class="sh-title">Sincera (Purple)</h4>
+</div>
+<div class="sh-metrics">
+<div class="sh-metric">
+<span class="sh-val">45% <span class="tag-a">A</span></span>
+<span class="sh-label">Loss Ratio Target</span>
+</div>
+<div class="sh-metric">
+<span class="sh-val">15% <span class="tag-a">A</span></span>
+<span class="sh-label">Ops Cost Ratio</span>
+</div>
+</div>
+</div>
 
-  <!-- SINCERA -->
-  <div class="sh-card sh-sincera">
-    <div class="sh-header">
-      <span class="sh-icon">🟣</span>
-      <h4 class="sh-title">Sincera</h4>
-    </div>
-    <div class="sh-metrics">
-      <div class="sh-metric"><span class="sh-val">45% <span class="tag-a">A</span></span><span class="sh-label">Loss Ratio Target</span></div>
-      <div class="sh-metric"><span class="sh-val">15% <span class="tag-a">A</span></span><span class="sh-label">Ops Cost Ratio</span></div>
-    </div>
-  </div>
-
-  <!-- RENTAL SUPPLIERS -->
-  <div class="sh-card sh-rental-red">
-    <div class="sh-header">
-      <span class="sh-icon">🏢</span>
-      <h4 class="sh-title">Rental Suppliers</h4>
-    </div>
-    <div class="sh-metrics">
-      <div class="sh-metric"><span class="sh-val">↓10% <span class="tag-a">A</span></span><span class="sh-label">Pickup Disputes</span></div>
-    </div>
-  </div>
+<!-- MERCHANT -->
+<div class="sh-card sh-rental-red">
+<div class="sh-header">
+<span class="sh-icon">🏢</span>
+<h4 class="sh-title">Rental Suppliers (Red)</h4>
+</div>
+<div class="sh-metric">
+<span class="sh-val">↓10% <span class="tag-a">A</span></span>
+<span class="sh-label">Pickup Disputes</span>
+</div>
+</div>
+<div class="sh-features" style="margin-top: 10px; font-size: 0.35em; color: rgba(255,255,255,0.8); line-height: 1.4;">
+<div style="margin-bottom: 4px;">• Fewer no-show disputes & chargebacks</div>
+<div style="margin-bottom: 4px;">• Higher rebooking rate (customer has coverage)</div>
+<div>• Lower support load on disruption cases</div>
+</div>
+</div>
 </div>
 </div>
 
 
-
+<div class="dir-notes">
+<ul>
+<li><strong>Notes:</strong> All metrics are <span class="tag-a">A</span> assumptions based on market benchmarks and pilot targets.</li>
+</ul>
+</div>
 
 ---
 <!-- .slide: id="execution-roadmap" -->
@@ -516,225 +503,68 @@
 <div class="roadmap-simple-list">
 
 <div class="rm-item">
-  <div class="rm-date-large">Weeks 1-4 <span class="tag-a">A</span></div>
-  <div class="rm-content-block">
-    <span class="rm-phase-title-new">Phase 0: Validation & Setup</span>
-    <span class="rm-phase-desc-new">PRD & Prototype, Priotiristion and Goals review, Concept Validation, Stakeholder Alignment, Team Setup (incl. Sincera), Rental Supplier Pitch,  Design Mockups, Roadmap and Risk planning.</span>
-  </div>
+  <span class="rm-phase-title">Phase 0: Validation</span> <span class="rm-phase-date">(Weeks 1-4)</span>
+  <div class="rm-phase-desc">PRD & Prototype, Stakeholder Align (Legal/Fin), Rental Supplier Pitch, Sincera Terms.</div>
 </div>
 
 <div class="rm-item">
-  <div class="rm-date-large">Weeks 5-8 <span class="tag-a">A</span></div>
-  <div class="rm-content-block">
-    <span class="rm-phase-title-new">Phase 1: Build & Ops</span>
-    <span class="rm-phase-desc-new">Usability test, Jira and rituals setup, MVP Build (UK Pilot), Sincera API Integration, Legal/Fin/Ops issues, Claims Flow Test, Risk mitigation updates.</span>
-  </div>
+  <span class="rm-phase-title">Phase 1: Build & Ops</span> <span class="rm-phase-date">(Weeks 5-8)</span>
+  <div class="rm-phase-desc">MVP Build (UK Pilot), Sincera API Integration, Ops Process Setup, Claims Flow Test.</div>
 </div>
 
 <div class="rm-item canary">
-  <div class="rm-date-large">Weeks 9-10 <span class="tag-a">A</span></div>
-  <div class="rm-content-block">
-    <span class="rm-phase-title-new">Milestone: Canary A/B test (if A/B effective <span class="tag-a">A</span>)</span>
-    <span class="rm-phase-desc-new">Internal Distribution, Live Claim Test, Metrics and Risk Monitoring. Reflection and decision on scaling. </span>
-  </div>
+  <span class="rm-phase-title">Milestone: Canary Launch</span> <span class="rm-phase-date">(Weeks 9-10)</span>
+  <div class="rm-phase-desc">Internal Distribution, Limited Traffic (5%), Live Claim Test, Risk Monitoring.</div>
 </div>
 
 <div class="rm-item">
-  <div class="rm-date-large">Weeks 11-18 <span class="tag-a">A</span></div>
-  <div class="rm-content-block">
-    <span class="rm-phase-title-new">Analysis & Data Maturation</span>
-    <span class="rm-phase-desc-new"><strong>Includes 8-week <span class="tag-a">A</span> Claim Lag</strong> (Booking → Trip → Filing). Validation of Loss Ratio & Unit Economics before scaling.</span>
-  </div>
+  <span class="rm-phase-title">Analysis & Data Maturation</span> <span class="rm-phase-date">(Weeks 11-18)</span>
+  <div class="rm-phase-desc"><strong>Includes 8-week Claim Lag</strong> (Booking → Trip → Filing). Validation of Loss Ratio & Unit Economics before scaling.</div>
 </div>
 
-<div class="rm-item full-rollout">
-  <div class="rm-date-large">Week 19+ <span class="tag-a">A</span></div>
-  <div class="rm-content-block">
-    <span class="rm-phase-title-new">Phase 2: Full Rollout</span>
-    <span class="rm-phase-desc-new">100% UK Traffic, EU+US Expansion, Dynamic Pricing V1, Auto-Adjudication, Reflection and decision on scaling, Next steps planning.</span>
-  </div>
+<div class="rm-item">
+  <span class="rm-phase-title">Phase 2: Full Rollout</span> <span class="rm-phase-date">(Week 19+)</span>
+  <div class="rm-phase-desc">100% UK Traffic, EU+US Expansion, Dynamic Pricing V1, Auto-Adjudication.</div>
 </div>
 
 </div>
+
+---
+<!-- .slide: id="phase0-validation" -->
+
+## HOW: Phase 0: Validation
+
+Content coming soon
+
+---
+<!-- .slide: id="phase1-mvp" -->
+
+## HOW: Phase 1: MVP Design, Build & Launch
+
+Content coming soon
+
+---
+<!-- .slide: id="phase2-scale" -->
+
+## HOW: Phase 2: Initial Scale
+
+Content coming soon
 
 ---
 <!-- .slide: id="risks" -->
 
-## HOW: Risks & Mitigation
+## HOW: Dependencies & Risks
 
-<div class="risk-table-wrap">
-  <table class="risk-table">
-    <thead>
-      <tr>
-        <th class="col-risk-num">#</th>
-        <th class="col-risk-name">Risk Name</th>
-        <th class="col-risk-mitigation">Mitigation Strategy</th>
-        <th class="col-risk-impact">Impact</th>
-        <th class="col-risk-prob">Prob.</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Sincera offer uncompetitive / bad economics</td>
-        <td>Early alignment & Joint "Virtual Team" product development to ensure viability.</td>
-        <td><span class="risk-high">High</span></td>
-        <td><span class="risk-low">Low</span></td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Timeline estimation errors</td>
-        <td>Frequent re-estimation, decomposition, and strict goal tracking.</td>
-        <td><span class="risk-high">High</span></td>
-        <td><span class="risk-med">Med</span></td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Attach Rate miss</td>
-        <td>Planned updates at test/scale phases; ready to pivot if needed.</td>
-        <td><span class="risk-high">High</span></td>
-        <td><span class="risk-med">Med</span></td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Ineffective Pricing</td>
-        <td>Build flexible pricing options; verify economic fit with users early.</td>
-        <td><span class="risk-high">High</span></td>
-        <td><span class="risk-med">Med</span></td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>User confusion (Full vs Extra)</td>
-        <td>Clear naming distinction; rigorous separation of communication streams.</td>
-        <td><span class="risk-high">High</span></td>
-        <td><span class="risk-low">Low</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Content coming soon
 
 ---
-<!-- .slide: id="trust-compliance" -->
+<!-- .slide: id="team-model" -->
 
-## HOW: Trust & Compliance
+## HOW: Team & Partner Operating Model
 
-<div class="trust-grid">
-  <!-- 1. Clarity -->
-  <div class="trust-card">
-    <div class="trust-icon">💬</div>
-    <h4>Clarity vs. Confusion</h4>
-    <ul>
-      <li><span class="pain-point">Market:</span> Hidden exclusions drive disputes & churn.</li>
-      <li><strong>Radical Transparency:</strong> Exclusions flagged <em>pre-purchase</em>.</li>
-      <li><strong>Reduced Friction:</strong> "No-Legalese" policy (Readability Score < 60).</li>
-    </ul>
-  </div>
-
-  <!-- 2. Certainty -->
-  <div class="trust-card">
-    <div class="trust-icon">⭐</div>
-    <h4>Certainty vs. Anxiety</h4>
-    <ul>
-      <li><span class="pain-point">Market:</span> Slow claims destroy retention.</li>
-      <li><strong>Automated Ops:</strong> Flight delays trigger 48h parametric payouts.</li>
-      <li><strong>Visual Trust:</strong> Real-time tracker reduces support tickets.</li>
-    </ul>
-  </div>
-
-  <!-- 3. Legitimacy -->
-  <div class="trust-card">
-    <div class="trust-icon">⚖️</div>
-    <h4>Legitimacy vs. Risk</h4>
-    <ul>
-      <li><span class="pain-point">Market:</span> "Grey" products risk regulatory fines.</li>
-      <li><strong>Regulatory Checklist:</strong> Rigorous audit of all compliance requirements.</li>
-      <li><strong>Scalable Engine:</strong> Dynamic T&Cs auto-adapt to local laws.</li>
-    </ul>
-  </div>
-</div>
+Content coming soon
 
 ---
-## HOW: Measurement & Learning
-
-<div class="measure-grid">
-<!-- Column 1: Metrics -->
-<div class="measure-column">
-<div class="metric-card">
-<span class="metric-title">Primary Metrics (North Star)</span>
-<ul>
-<li><strong>New incremental revenue per booking</strong></li>
-<li><strong>Attach Rate</strong></li>
-</ul>
-</div>
-
-<div class="metric-card guardrail-card">
-<span class="metric-title">Guardrail Metrics (Safety)</span>
-<ul>
-<li><strong>Bookings Conversion</strong> (Zero-Harm)</li>
-<li><strong>Contribution Margin</strong> (Positive Unit Economics)</li>
-<li><strong>Retention N-day</strong> (Long-term Trust)</li>
-</ul>
-</div>
-</div>
-
-<!-- Column 2: Learning Loop -->
-<div class="measure-column">
-<div class="metric-card learning-card">
-<span class="metric-title">How We Learn & Iterate</span>
-<ul>
-<li><strong>A/B Testing:</strong> Short sprints on copy, placement, and pricing elasticity.</li>
-<li><strong>Qualitative:</strong> Heatmaps, proactive feedback communications (email, banners), reactive customer support feedback, custdev.</li>
-<li><strong>Data-Driven:</strong> Funnel drop-off analysis by segment, claim lag analysis, AOV analysis, unit economy etc.</li>
-</ul>
-</div>
-
-<div class="metric-card">
-<span class="metric-title">Pivot / Persevere Signals</span>
-<ul>
-<li><strong>Pivot:</strong> If Attach Rate < 5% or Support Tickets > 2% of bookings. <span class="tag-a">A</span></li>
-<li><strong>Persevere:</strong> If unit economics positive (CM > 0).</li>
-</ul>
-</div>
-</div>
-</div>
-
----
-
-<!-- .slide: id="team-alignment" -->
-
-## HOW: Team & Partner Alignment
-
-<div class="measure-grid">
-<!-- Column 1: Team -->
-<div class="measure-column">
-<div class="metric-card">
-<span class="metric-title">Team</span>
-<ul>
-<li><strong>Virtual Team:</strong> Joint squads (including Sincera) with shared chat for updates.</li>
-<li><strong>Communication:</strong> Dedicated Project & Team chats (Slack/Teams) for real-time unblocking.</li>
-
-<li><strong>Legal/Fin Sandbox:</strong> Pre-agreed guidelines for rapid copy iteration.</li>
-</ul>
-</div>
-</div>
-
-<!-- Column 2: Culture & Rituals -->
-<div class="measure-column">
-<div class="metric-card guardrail-card">
-<span class="metric-title">Culture & Rituals</span>
-<ul>
-<li><strong>Kick-off:</strong> Project initiation meetings to align on goals, scope, and success metrics.</li>
-<li><strong>Alignment:</strong> Regular weekly project syncs to track progress and highlight team goals.</li>
-<li><strong>Cycle:</strong> Sprint planning, Grooming, and Daily Standups (unblocking).</li>
-<li><strong>Feedback:</strong> Retro meetings and Demo (optional).</li>
-<li><strong>1:1s:</strong> Regular syncs with Tech Lead, Designer, Analytics, Sincera leader, Ori & anyone needed.</li>
-</ul>
-</div>
-</div>
-</div>
-
----
-
 <!-- .slide: id="summary" -->
 
 ## HOW: Summary, Key Trade-offs & Assumptions

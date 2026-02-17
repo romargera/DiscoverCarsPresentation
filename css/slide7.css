@@ -1,0 +1,71 @@
+/* Slide 7 Specific Layout */
+.slide-7-container {
+    display: grid;
+    grid-template-columns: 1.4fr 0.8fr;
+    /* Left (Concept) wider, Right (Goals-narrow) */
+    gap: 20px;
+    height: 100%;
+}
+
+.slide-7-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slide-7-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    height: 100%;
+}
+
+/* Revert Stakeholder Grid to 1-col stack for left column */
+.slide-7-left .stakeholder-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Stack visually */
+    gap: 8px;
+}
+
+.slide-7-left .sh-card {
+    padding: 8px 12px;
+    min-height: auto;
+    /* Allow compact */
+}
+
+.slide-7-left .sh-features {
+    display: none;
+    /* Hide features in left col if they exist */
+}
+
+/* Right Column Concept Styling */
+.concept-pillar {
+    margin-bottom: 12px;
+}
+
+.concept-pillar h4 {
+    font-size: 0.45em;
+    color: #81c784;
+    /* DC Green */
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(129, 199, 132, 0.3);
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.concept-pillar-list {
+    font-size: 0.35em;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.4;
+}
+
+.concept-pillar-list div {
+    margin-bottom: 4px;
+    padding-left: 8px;
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+}
