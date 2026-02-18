@@ -649,24 +649,24 @@
 <!-- RIGHT: TEXT BLOCK -->
 <div style="flex: 0.8; font-size: 0.55em; line-height: 1.4; color: #ddd; text-align: left;">
 
-<div style="margin-bottom: 15px;">
+<!-- <div style="margin-bottom: 15px;">
 <div style="font-size: 1.2em; margin-bottom: 2px;">✈️</div>
 <strong style="color: #fff; display: block; font-size: 1.1em;">Trip Disruption</strong>
 <span style="color: #4cd9a0; font-weight: bold;">~€1.20/day</span>
 <div style="margin-top: 2px;">Flight delay ≥4h, forced rebooking, non-refundable costs.</div>
-</div>
+</div> -->
 
-<div style="margin-bottom: 15px;">
+<!-- <div style="margin-bottom: 15px;">
 <div style="font-size: 1.2em; margin-bottom: 2px;">🎯</div>
 <strong style="color: #fff; display: block; font-size: 1.1em;">Target Segment (Pilot)</strong>
 <div style="margin-top: 2px;">UK Residents → EU. High anxiety segment.</div>
-</div>
-
+</div> -->
+<!-- 
 <div style="margin-bottom: 20px;">
 <div style="font-size: 1.2em; margin-bottom: 2px;">⚡</div>
 <strong style="color: #fff; display: block; font-size: 1.1em;">Execution Strategy</strong>
 <div style="margin-top: 2px;">Semi-Automated Ops. "Signal" Strategy (Separate Add-on).</div>
-</div>
+</div> -->
 
 <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.1);">
 <strong style="color: #fff; display: block; margin-bottom: 5px;">MVP rules (to limit ambiguity):</strong>
@@ -928,7 +928,7 @@
 
 ## Next Steps
 
-<div class="next-steps-list" style="margin-top: 50px; font-size: 0.8em; line-height: 1.4;">
+<div class="next-steps-list" style="margin-top: 50px; font-size: 0.4em; line-height: 1.4;">
 
 <ul>
   <li style="margin-bottom: 20px;"><strong>Team meeting and setup:</strong> Align goals, expectations and ritauls.</li>
