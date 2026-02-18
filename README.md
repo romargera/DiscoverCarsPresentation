@@ -10,8 +10,6 @@ This repository contains the test assignment solution for the Travel Protection 
 
 *   **Test Assignment Task:** [Discover Cars Test Task.md](Discover%20Cars%20Test%20Task.md)
 *   **Presentation (Slides):** [View on GitHub Pages](https://romargera.github.io/DiscoverCarsPresentation/)
-*   **PDF Export:** [DiscoverCars_Presentation.pdf](DiscoverCars_Presentation.pdf)
-*   **PowerPoint Export:** [DiscoverCars_Presentation.pptx](DiscoverCars_Presentation.pptx)
 
 ## Repository Structure
 *   `slides.md`: The main presentation content (Markdown).
