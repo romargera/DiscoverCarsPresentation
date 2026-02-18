@@ -1,24 +1,24 @@
-Risk: Sincera не сможет дать оффер целевого качества с приемлимой экономикой
+Risk: Sincera cannot provide an offer of target quality with acceptable economics
 Probability: 20%
 Impact: 80%
-Mitigation: Alligment на раннем этапе и совместная проработка продукта в формате виртуальной команды
+Mitigation: Early alignment and joint product development in a virtual team format
 
-Risk: Сроки оценены не точно 
+Risk: Timelines estimated inaccurately
 Probability: 40%
 Impact: 80%
-Mitigation: Регулярная переоценка сроков, декомпозиция и трекинг целей этапов и обновление рисков и плана их митигации. 
+Mitigation: Regular timeline re-estimation, decomposition, tracking of stage goals, and updating risks and mitigation plans.
 
-Risk: Целевой attach rate оценен не точно
+Risk: Target attach rate estimated inaccurately
 Probability: 40%
 Impact: 80%
-Mitigation: Запланированный апдейт attach rate на этапах тестирования и при масштабировании
+Mitigation: Planned update of attach rate during testing stages and scaling
 
-Risk: Ценнообразование будет неэффективным
+Risk: Pricing will be ineffective
 Probability: 40%
 Impact: 80%
-Mitigation: Заложить опции изменения цен в оферте и верифицировать экономическую эффективность с пользователями
+Mitigation: Include price change options in the offer and verify economic efficiency with users
 
-Risk: Пользователи привыкли к Full Coverage и могут не понять то, что он теперь есть еще и доп Coverage, который можно купить в добавок к Full 
+Risk: Users are used to Full Coverage and may not understand there is now an additional Coverage product they can buy on top of Full
 Probability: 20%
 Impact: 80%
-Mitigation: Разведение коммуникации о разных coverage продуктах и их преимуществах включая изменение нейминга Full Coverage
+Mitigation: Separate communication about different coverage products and their benefits, including renaming Full Coverage
