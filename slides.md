@@ -26,17 +26,15 @@
   </div>
   <div class="agenda-section">
     <h4>WHY</h4>
-    <p>Market Opportunity & Strategic Fit</p>
-    <p>Trust as Competitive Moat</p>
-    <p>Unit Economics & Viability</p>
-    <p>Value summary & Goals</p>
+    <p>Market Opportunity</p>
+    <p>Unit Economy</p>
   </div>
   <div class="agenda-section">
     <h4>HOW</h4>
     <p>Execution Roadmap</p>
-    <p>Phases: idea → MVP → initial scale</p>
-    <p>Risks & Mitigations</p>
-    <p>Team & Operating Model</p>
+    <p>MVP Solution</p>
+    <p>Measurement & Learning</p>
+    <p>Risks & Mitigation</p>
   </div>
 </div>
 
@@ -340,7 +338,7 @@
 
 <!-- JTBD STORY -->
 <div class="story-card jtbd">
-  <div class="story-label">The Need (JTBD)</div>
+  <div class="story-label">JTBD</div>
   <p class="story-text">
     "When my travel plans are disrupted, I want automatic financial protection for my rental costs, so I can rebook without stress and not lose money on things I can't control."
   </p>
@@ -374,7 +372,7 @@
 </table>
 <p class="mkt-xcheck">Cross-check:<br>
 * top-down via travel insurance market ($28B) → car-rental share → DC share ≈ €11.6M SAM ✅<span class="tag-a">A</span><br>
-* bottom up via unit economy ✅ <span class="tag-a">A</span></p>
+* bottom up via <a href="https://docs.google.com/spreadsheets/d/19-oIeCFEB-zSv6ZiK57SRSVOa4klkq5e8au2bKKDrVM/edit?gid=839393161#gid=839393161&range=A1" target="_blank">unit economy</a> ✅ <span class="tag-a">A</span></p>
 </div>
 <div class="mkt-cell">
 <h4 class="mkt-heading">Competitive Gap: Trip Disruption</h4>
@@ -385,7 +383,7 @@
 <tr><td class="mkt-gap-name">RentalCover</td><td class="mkt-gap-val mkt-gap-no">No</td><td class="mkt-gap-note">Vehicle damage only, no trip risk</td></tr>
 <tr><td class="mkt-gap-name">DiscoverCars</td><td class="mkt-gap-val mkt-gap-no">No</td><td class="mkt-gap-note">No trip disruption product</td></tr>
 </table>
-<p class="mkt-xcheck">= Zero competitors cover car rental costs when flight disrupts trip</p>
+<p class="mkt-xcheck">No selected competitor offers Trip Disruption coverage explicitly</p>
 </div>
 
 </div>
@@ -399,13 +397,93 @@
 
 
 ---
+<!-- .slide: id="unit-economics" -->
+
+## WHY: Unit Economy for Base case <span class="tag-a"> A</span>
+
+<div class="unit-container">
+
+<!-- LEFT: WATERFALL -->
+<div class="unit-left">
+  <div class="waterfall-header">Unit Profitability (Per Policy)</div>
+  
+  <!-- Price -->
+  <div class="wf-row">
+    <div class="wf-label">Price (Revenue)</div>
+    <div class="wf-bar-container">
+      <div class="wf-bar bar-pos">€7.50</div>
+    </div>
+  </div>
+
+  <!-- Risk Cost -->
+  <div class="wf-row">
+    <div class="wf-label">Risk Cost</div>
+    <div class="wf-bar-container">
+      <div class="wf-bar bar-neg">-€3.38 (45%)</div>
+    </div>
+  </div>
+
+  <!-- Ops Cost -->
+  <div class="wf-row">
+    <div class="wf-label">Ops & Tech</div>
+    <div class="wf-bar-container">
+      <div class="wf-bar bar-neg-small">-€0.62</div>
+    </div>
+  </div>
+
+  <!-- Net Margin -->
+  <div class="wf-row net">
+    <div class="wf-label" style="font-weight: bold; color: #4cd9a0;">Net Margin</div>
+    <div class="wf-bar-container" style="justify-content: flex-start;">
+       <!-- Spacer to align visually with costs if needed, or just left align as requested -->
+       <div class="wf-bar bar-net" style="margin-left: 0;">€3.50 (47%) ✅</div>
+    </div>
+  </div>
+  
+
+</div>
+
+<!-- RIGHT: KEY METRICS COMPACT -->
+<div class="unit-right" style="display: flex; flex-direction: column; gap: 30px; justify-content: center;">
+  
+  <!-- Attach Rate -->
+  <div class="eff-card-wide">
+    <div class="eff-title">Target Attach Rate</div>
+    <div class="eff-val">15%</div>
+    <div class="eff-sub">Base Case Assumption</div>
+  </div>
+
+  <!-- LTV Lift -->
+  <div class="eff-card-wide">
+    <div class="eff-title">LTV Lift (Platform)</div>
+    <div class="eff-val" style="color: #4cd9a0;">+2.0%</div>
+    <div class="eff-sub">Driven by higher retention</div>
+  </div>
+
+  <!-- Access Model Link -->
+  <div class="model-link-box">
+     <div style="font-size: 0.55em; color: #aaa; margin-bottom: 5px;">Detailed Scenario Analysis:</div>
+     <a href="https://docs.google.com/spreadsheets/d/19-oIeCFEB-zSv6ZiK57SRSVOa4klkq5e8au2bKKDrVM/edit?gid=839393161#gid=839393161&range=A1" target="_blank" style="font-size: 0.7em; text-decoration: underline; color: #4cd9a0;">
+       Scenario Analysis
+     </a>
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+---
+
 <!-- .slide: id="why-summary" -->
 
 ## WHY: Summary & Goals
 
 
 
-<div class="slide-7-container">
+<div class="slide-7-layout">
 <!-- LEFT COLUMN: CONCEPT PILLARS -->
 <div class="slide-7-left">
   <!-- 0. Direction (New) -->
@@ -505,10 +583,8 @@
 </div>
 </div>
 
-
-
-
 ---
+
 <!-- .slide: id="execution-roadmap" -->
 
 ## HOW: Execution Roadmap
@@ -534,30 +610,147 @@
 <div class="rm-item canary">
   <div class="rm-date-large">Weeks 9-10 <span class="tag-a">A</span></div>
   <div class="rm-content-block">
-    <span class="rm-phase-title-new">Milestone: Canary A/B test (if A/B effective <span class="tag-a">A</span>)</span>
-    <span class="rm-phase-desc-new">Internal Distribution, Live Claim Test, Metrics and Risk Monitoring. Reflection and decision on scaling. </span>
+    <span class="rm-phase-title-new">Milestone: Canary A/B Test</span>
+    <span class="rm-phase-desc-new">Internal Launch, Live Claim End-to-End Test, Go/No-Go Decision.</span>
   </div>
 </div>
 
 <div class="rm-item">
   <div class="rm-date-large">Weeks 11-18 <span class="tag-a">A</span></div>
   <div class="rm-content-block">
-    <span class="rm-phase-title-new">Analysis & Data Maturation</span>
-    <span class="rm-phase-desc-new"><strong>Includes 8-week <span class="tag-a">A</span> Claim Lag</strong> (Booking → Trip → Filing). Validation of Loss Ratio & Unit Economics before scaling.</span>
+    <span class="rm-phase-title-new">Data Maturation</span>
+    <span class="rm-phase-desc-new"><strong>8-week Claim Lag</strong>, Loss Ratio Validation, Unit Econ Check.</span>
   </div>
 </div>
 
-<div class="rm-item full-rollout">
-  <div class="rm-date-large">Week 19+ <span class="tag-a">A</span></div>
+<div class="rm-item canary">
+  <div class="rm-date-large">Weeks 19+ <span class="tag-a">A</span></div>
   <div class="rm-content-block">
     <span class="rm-phase-title-new">Phase 2: Full Rollout</span>
-    <span class="rm-phase-desc-new">100% UK Traffic, EU+US Expansion, Dynamic Pricing V1, Auto-Adjudication, Reflection and decision on scaling, Next steps planning.</span>
+    <span class="rm-phase-desc-new">100% UK Traffic, EU+US Expansion, Dynamic Pricing V1.</span>
   </div>
 </div>
 
 </div>
 
 ---
+
+
+<!-- .slide: id="mvp-solution" -->
+
+## HOW: MVP Solution Draft
+
+<div style="display: flex; gap: 40px; align-items: flex-start; margin-top: 20px;">
+<!-- LEFT: VISUAL -->
+<div style="flex: 1.2; display: flex; justify-content: center;">
+<img src="images/Full Coverage Extra.png" style="width: 90%; height: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+</div>
+
+<!-- RIGHT: TEXT BLOCK -->
+<div style="flex: 0.8; font-size: 0.55em; line-height: 1.4; color: #ddd; text-align: left;">
+
+<div style="margin-bottom: 15px;">
+<div style="font-size: 1.2em; margin-bottom: 2px;">✈️</div>
+<strong style="color: #fff; display: block; font-size: 1.1em;">Trip Disruption</strong>
+<span style="color: #4cd9a0; font-weight: bold;">~€1.20/day</span>
+<div style="margin-top: 2px;">Flight delay ≥4h, forced rebooking, non-refundable costs.</div>
+</div>
+
+<div style="margin-bottom: 15px;">
+<div style="font-size: 1.2em; margin-bottom: 2px;">🎯</div>
+<strong style="color: #fff; display: block; font-size: 1.1em;">Target Segment (Pilot)</strong>
+<div style="margin-top: 2px;">UK Residents → EU. High anxiety segment.</div>
+</div>
+
+<div style="margin-bottom: 20px;">
+<div style="font-size: 1.2em; margin-bottom: 2px;">⚡</div>
+<strong style="color: #fff; display: block; font-size: 1.1em;">Execution Strategy</strong>
+<div style="margin-top: 2px;">Semi-Automated Ops. "Signal" Strategy (Separate Add-on).</div>
+</div>
+
+<div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.1);">
+<strong style="color: #fff; display: block; margin-bottom: 5px;">MVP rules (to limit ambiguity):</strong>
+<div style="margin-bottom: 5px;">
+<strong>Trigger:</strong> flight cancellation or delay ≥4h <span class="tag-a">A</span> AND pickup window missed due to disruption.
+</div>
+<div style="margin-bottom: 5px;">
+<strong>Caps:</strong> no-show fee up to €150; rebooking price diff up to €300; cancellation penalty up to €150; max €450/trip.
+</div>
+<div style="margin-bottom: 5px;">
+<strong>Proof:</strong> flight status (API/doc) + booking + receipt + rebooking receipt + attempts log.
+</div>
+<div style="margin-bottom: 8px;">
+<strong>Exclusions:</strong> customer error, no evidence, late without delay, fraud.
+</div>
+
+<div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 8px; margin-top: 8px;">
+<div><strong>Platform:</strong> Web Only</div>
+<div><strong>Exp. Margin:</strong> €3.50/policy</div>
+<div style="color: #aaa; font-style: italic; margin-top: 4px;">Note: Dynamic Pricing V2</div>
+</div>
+</div>
+
+</div>
+</div>
+
+---
+
+<!-- .slide: id="trust-compliance-alignment" -->
+
+
+## HOW: Measurement & Learning
+
+<div class="measure-grid">
+<!-- Column 1: Metrics -->
+<div class="measure-column">
+<div class="metric-card">
+<span class="metric-title">Primary Metrics (North Star)</span>
+<ul>
+<li><strong>New incremental revenue per booking</strong></li>
+<li><strong>Attach Rate</strong></li>
+</ul>
+</div>
+
+<div class="metric-card guardrail-card">
+<span class="metric-title">Guardrail Metrics (Safety)</span>
+<ul>
+<li><strong>Bookings Conversion</strong> (Zero-Harm)</li>
+<li><strong>Contribution Margin</strong> (Positive Unit Economics)</li>
+<li><strong>Retention N-day</strong> (Long-term Trust)</li>
+<li><strong>Loss Ratio (LR)</strong> (target band, e.g., 35–55%) <span class="tag-a">A</span></li>
+<li><strong>Claims Freq.</strong> & <strong>Avg Payout</strong> (unit econ stability)</li>
+<li><strong>Time-to-Pay</strong> (P50/P90) + <strong>Approval Rate</strong></li>
+<li><strong>Dispute / Chargeback Rate</strong> (trust risk)</li>
+<li><strong>Complaint Rate</strong> (regulatory + CX)</li>
+</ul>
+</div>
+</div>
+
+<!-- Column 2: Learning Loop -->
+<div class="measure-column">
+<div class="metric-card learning-card">
+<span class="metric-title">How We Learn & Iterate</span>
+<ul>
+<li><strong>A/B Testing:</strong> Short sprints on copy, placement, and pricing elasticity.</li>
+<li><strong>Qualitative:</strong> Heatmaps, proactive feedback, reactive CS feedback, custdev.</li>
+<li><strong>Data-Driven:</strong> Funnel drop-off, AOV analysis, unit economy etc.</li>
+<li><strong>Claims analytics:</strong> cohort by “booking→trip→claim”, denial reasons, fraud flags, and copy/exclusion comprehension.</li>
+</ul>
+</div>
+
+<div class="metric-card">
+<span class="metric-title">Pivot / Persevere Signals</span>
+<ul>
+<li><strong>Pivot:</strong> If Attach Rate < 5% or Support Tickets > 2% of bookings. <span class="tag-a">A</span></li>
+<li><strong>Persevere:</strong> If unit economics positive (CM > 0).</li>
+</ul>
+</div>
+</div>
+</div>
+
+---
+
+
 <!-- .slide: id="risks" -->
 
 ## HOW: Risks & Mitigation
@@ -571,49 +764,90 @@
         <th class="col-risk-mitigation">Mitigation Strategy</th>
         <th class="col-risk-impact">Impact</th>
         <th class="col-risk-prob">Prob.</th>
+        <th class="col-risk-score">Score</th>
       </tr>
     </thead>
     <tbody>
+      <!-- Sorted by Score: High(3) * High(3) = 9 -->
       <tr>
         <td>1</td>
-        <td>Sincera offer uncompetitive / bad economics</td>
-        <td>Early alignment & Joint "Virtual Team" product development to ensure viability.</td>
+        <td><strong></strong> Failed by Misalignment</td>
+        <td><strong>Mitigation:</strong> Virtual team setup + tracking + Shared OKRs + reflection.</td>
         <td><span class="risk-high">High</span></td>
-        <td><span class="risk-low">Low</span></td>
+        <td><span class="risk-high">High</span></td>
+        <td class="risk-score-val">9</td>
       </tr>
       <tr>
         <td>2</td>
-        <td>Timeline estimation errors</td>
-        <td>Frequent re-estimation, decomposition, and strict goal tracking.</td>
+        <td>Exclusions / Denials</td>
+        <td>Clear "What's Covered" UI (Slide 10.5) + Empathy-first rejection copy.</td>
         <td><span class="risk-high">High</span></td>
-        <td><span class="risk-med">Med</span></td>
+        <td><span class="risk-high">High</span></td>
+        <td class="risk-score-val">9</td>
       </tr>
       <tr>
         <td>3</td>
-        <td>Attach Rate miss</td>
-        <td>Planned updates at test/scale phases; ready to pivot if needed.</td>
+        <td>Regulatory Launch Delays</td>
+        <td>Parallel "Regulatory Checklist" workstream with Sincera on the early step (Pre-Project).</td>
         <td><span class="risk-high">High</span></td>
         <td><span class="risk-med">Med</span></td>
+        <td class="risk-score-val">6</td>
       </tr>
       <tr>
         <td>4</td>
-        <td>Ineffective Pricing</td>
-        <td>Build flexible pricing options; verify economic fit with users early.</td>
+        <td>Claims Ops Scalability</td>
+        <td>Pre-agreed overflow capacity if volume >110% of forecast.</td>
         <td><span class="risk-high">High</span></td>
         <td><span class="risk-med">Med</span></td>
+        <td class="risk-score-val">6</td>
       </tr>
       <tr>
         <td>5</td>
-        <td>User confusion (Full vs Extra)</td>
-        <td>Clear naming distinction; rigorous separation of communication streams.</td>
+        <td>Claim Review Window</td>
+        <td>SLA enforcement + Auto-payout for clear cases to likely reduce lag.</td>
+        <td><span class="risk-high">High</span></td>
+        <td><span class="risk-med">Med</span></td>
+        <td class="risk-score-val">6</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Anti-fraud Maturity</td>
+        <td>PRD Anti-fraud review + Manual review for high-value claims + Sincera global blacklist check.</td>
+        <td><span class="risk-med">Med</span></td>
+        <td><span class="risk-med">Med</span></td>
+        <td class="risk-score-val">4</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Low Attach Rate (<5%)</td>
+        <td>Prepare pipelines to inforce attach rate in advance.</td>
         <td><span class="risk-high">High</span></td>
         <td><span class="risk-low">Low</span></td>
+        <td class="risk-score-val">3</td>
       </tr>
+      <tr>
+        <td>8</td>
+        <td>Cannibalization</td>
+        <td>[In draft] Monitor "Net Basket Value"; if cannibalization >5%, shift to "Upsell Only" path.</td>
+        <td><span class="risk-med">Med</span></td>
+        <td><span class="risk-low">Low</span></td>
+        <td class="risk-score-val">2</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Sincera Economics / Pricing</td>
+        <td>Joint "Virtual Team" to iterate pricing model weekly; agree on target LR constraints.</td>
+        <td><span class="risk-med">Med</span></td>
+        <td><span class="risk-low">Low</span></td>
+        <td class="risk-score-val">2</td>
+      </tr>
+    </tbody>
     </tbody>
   </table>
 </div>
 
 ---
+
 <!-- .slide: id="trust-compliance" -->
 
 ## HOW: Trust & Compliance
@@ -654,51 +888,6 @@
 </div>
 
 ---
-## HOW: Measurement & Learning
-
-<div class="measure-grid">
-<!-- Column 1: Metrics -->
-<div class="measure-column">
-<div class="metric-card">
-<span class="metric-title">Primary Metrics (North Star)</span>
-<ul>
-<li><strong>New incremental revenue per booking</strong></li>
-<li><strong>Attach Rate</strong></li>
-</ul>
-</div>
-
-<div class="metric-card guardrail-card">
-<span class="metric-title">Guardrail Metrics (Safety)</span>
-<ul>
-<li><strong>Bookings Conversion</strong> (Zero-Harm)</li>
-<li><strong>Contribution Margin</strong> (Positive Unit Economics)</li>
-<li><strong>Retention N-day</strong> (Long-term Trust)</li>
-</ul>
-</div>
-</div>
-
-<!-- Column 2: Learning Loop -->
-<div class="measure-column">
-<div class="metric-card learning-card">
-<span class="metric-title">How We Learn & Iterate</span>
-<ul>
-<li><strong>A/B Testing:</strong> Short sprints on copy, placement, and pricing elasticity.</li>
-<li><strong>Qualitative:</strong> Heatmaps, proactive feedback communications (email, banners), reactive customer support feedback, custdev.</li>
-<li><strong>Data-Driven:</strong> Funnel drop-off analysis by segment, claim lag analysis, AOV analysis, unit economy etc.</li>
-</ul>
-</div>
-
-<div class="metric-card">
-<span class="metric-title">Pivot / Persevere Signals</span>
-<ul>
-<li><strong>Pivot:</strong> If Attach Rate < 5% or Support Tickets > 2% of bookings. <span class="tag-a">A</span></li>
-<li><strong>Persevere:</strong> If unit economics positive (CM > 0).</li>
-</ul>
-</div>
-</div>
-</div>
-
----
 
 <!-- .slide: id="team-alignment" -->
 
@@ -735,8 +924,17 @@
 
 ---
 
-<!-- .slide: id="summary" -->
+<!-- .slide: id="next-steps" -->
 
-## HOW: Summary, Key Trade-offs & Assumptions
+## Next Steps
 
-Content coming soon
+<div class="next-steps-list" style="margin-top: 50px; font-size: 0.8em; line-height: 1.4;">
+
+<ul>
+  <li style="margin-bottom: 20px;"><strong>Team meeting and setup:</strong> Align goals, expectations and ritauls.</li>
+  <li style="margin-bottom: 20px;"><strong>Critical feedback session and Product Approval (Phase 0):</strong> 4-week validation phase (PM + Designer).</li>
+  <li style="margin-bottom: 20px;"><strong>Legal / Compliance Check:</strong> Confirm regulatory feasibility for "Trip Disruption" model with Legal.</li>
+  <li style="margin-bottom: 20px;"><strong>Partner Kick-off:</strong> Initial commercial loop with Sincera to align on pricing model.</li>
+</ul>
+
+</div>
