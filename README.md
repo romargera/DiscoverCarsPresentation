@@ -22,6 +22,6 @@ This repository contains the test assignment solution for the Travel Protection 
 This project was built using a **Spec → Evaluation → Drift Detection** framework:
 1.  **Spec:** Strategy defined in `slides.md` as the single source of truth.
 2.  **Code Evaluation:** Continuous CI/CD-like rendering via local server to validate UX.
-3.  **Drift Detection:** 
+3.  **Drift Detection Example:** 
     *   **Visual Drift:** Automated screenshot pipeline (`create_pptx_clean.py`) to mitigate PDF rendering artifacts.
     *   **Deployment Drift:** Cache-busting implementation to ensure Production (GitHub Pages) matches Development (Localhost).
