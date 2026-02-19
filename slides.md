@@ -598,7 +598,7 @@
   <div class="rm-date-large">Weeks 1-4 <span class="tag-a">A</span></div>
   <div class="rm-content-block">
     <span class="rm-phase-title-new">Phase 0: Validation & Setup</span>
-    <span class="rm-phase-desc-new">PRD & Prototype, Priotiristion and Goals review, Concept Validation, Stakeholder Alignment, Team Setup (incl. Sincera), Rental Supplier Pitch,  Design Mockups, Roadmap and Risk planning.</span>
+    <span class="rm-phase-desc-new">PRD & Prototype, Prioritisation and Goals review, Concept Validation, Stakeholder Alignment, Team Setup (incl. Sincera), Rental Supplier Pitch,  Design Mockups, Roadmap and Risk planning.</span>
   </div>
 </div>
 
@@ -622,7 +622,7 @@
   <div class="rm-date-large">Weeks 11-18 <span class="tag-a">A</span></div>
   <div class="rm-content-block">
     <span class="rm-phase-title-new">Data Maturation</span>
-    <span class="rm-phase-desc-new"><strong>8-week Claim Lag</strong>, Loss Ratio Validation, Unit Econ Check.</span>
+    <span class="rm-phase-desc-new"><strong>8-week Claim Lag</strong>, Loss Ratio Validation, Unit Economics Check.</span>
   </div>
 </div>
 
@@ -677,7 +677,7 @@
 <strong>Pilot scope:</strong> UK residents, airport bookings, “verified flight disruption” only (segmentation would be updated).
 </div>
 <div style="margin-bottom: 5px;">
-<strong>Product:</strong> 2 versions to etst: Startdalone option and bundle with "Full Coverage Plus".
+<strong>Product:</strong> 2 versions to test: Startdalone option and bundle with "Full Coverage Plus".
 </div>
 <div style="margin-bottom: 5px;">
 <strong>Coverage rules:</strong> trigger + caps + required proof (flight status + receipts); clear exclusions.
