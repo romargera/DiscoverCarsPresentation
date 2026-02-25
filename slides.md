@@ -369,7 +369,7 @@ I evaluated 10 strategic directions using three criteria: Commercial impact, Eff
 </div>
 
 Notes:
-Let’s make it tangible. A customer lands late due to a flight delay. The rental desk is closed. They lose €350 between penalties and rebooking. The rule is simple: If a verified flight disruption causes a missed pickup, we reimburse rental-related fees. Clear trigger. Clear scope. Rental costs only. Job to be done: Protect my rental money when travel goes wrong.
+Let’s make it concrete. A customer lands late due to a flight delay. The rental desk is closed. They lose €350 between penalties and rebooking. The rule is simple: If a verified flight disruption causes a missed pickup, we reimburse rental-related fees. Clear trigger. Clear scope. Rental costs only. Job to be done: Protect my rental money when travel goes wrong.
 
 ---
 <!-- .slide: id="market-opportunity" -->
@@ -412,7 +412,7 @@ Let’s make it tangible. A customer lands late due to a flight delay. The renta
 </div>
 
 Notes:
-TAM: approximately €850M globally in airport-linked rentals. After segmentation, the realistic serviceable opportunity is around €11–12M. Projected capture: Year 1 — ~€600K, Year 3 — ~€3.5M+. Before scaling, we validate these projections against: Airport booking mix, Route-specific delay frequency, and Insurer underwriting appetite. This is not speculative growth — it’s structured expansion.
+TAM: approximately €850M globally in airport-linked rentals. After segmentation, the realistic serviceable opportunity is around €11–12M. Projected capture: Year 1 — ~€600K, Year 3 — ~€3.5M+. Before scaling, we validate these projections against: Airport booking mix, Route-specific delay frequency, and The level of risk the insurer is ready to take. This is not risky growth — it’s planned expansion.
 
 ---
 <!-- .slide: id="unit-economics" -->
@@ -490,7 +490,7 @@ TAM: approximately €850M globally in airport-linked rentals. After segmentatio
 </div>
 
 Notes:
-Per policy: €7.50 premium, 45% loss ratio, ~€3.50 contribution margin. The 45% target balances profitability and customer trust. If loss ratio exceeds 55%, we tighten triggers or reprice. If it stays under 35%, we expand confidently. Automation through verified flight data keeps operational costs scalable.
+Per policy: €7.50 premium, 45% loss ratio, ~€3.50 contribution margin. The 45% target balances profitability and customer trust. If loss ratio goes above 55%, we make triggers stricter or change the price. If it stays under 35%, we expand confidently. Automation through verified flight data keeps operational costs scalable.
 
 ---
 
@@ -599,7 +599,7 @@ Per policy: €7.50 premium, 45% loss ratio, ~€3.50 contribution margin. The 4
 </div>
 
 Notes:
-Why start here? This is the highest-margin white space in the funnel. No direct competitor owns it. Customers gain protection. We gain incremental revenue. The insurer maintains sustainable ratios. Rental partners reduce disputes. It aligns incentives across the ecosystem.
+Why start here? This is the highest-margin white space in the funnel. No direct competitor owns it. Customers gain protection. We gain incremental revenue. The insurer keeps stable ratios. Rental partners reduce disputes. It aligns goals across the ecosystem.
 
 ---
 
@@ -652,7 +652,7 @@ Why start here? This is the highest-margin white space in the funnel. No direct 
 </div>
 
 Notes:
-We deliberately start small to protect unit economics. Phase 0 — validation and alignment. Phase 1 — UK MVP. Phase 2 — claims data maturation. Then controlled expansion. Insurance products require claim lag awareness. We build that into the plan from day one.
+We start small on purpose to mitigate risks and protect economics. Phase 0 — validation and alignment. Phase 1 — UK MVP. Phase 2 — claims data development. Then controlled expansion. Insurance products require claim lag awareness. We build that into the plan from day one.
 
 ---
 
@@ -717,7 +717,7 @@ We deliberately start small to protect unit economics. Phase 0 — validation an
 </div>
 
 Notes:
-The MVP is intentionally narrow: Airport bookings only, Verified flight delays, Single geography. We test: Standalone add-on vs bundled offering. Clear exclusions shown upfront. We scale only after validating real loss ratio behavior.
+The MVP is narrow by design: Airport bookings only, Verified flight delays, Single geography. We test: Standalone add-on vs bundled offering. Clear exclusions shown upfront. We scale only after validating real loss ratio behavior.
 
 ---
 
@@ -874,7 +874,7 @@ North Stars: Incremental revenue per booking and Attach rate. Guardrails: No har
 </div>
 
 Notes:
-Two primary risks: Cross-functional misalignment and Customer trust erosion due to unclear exclusions. Mitigation: Unified squad model, Transparent pre-purchase communication, and Embedded compliance workflow. Other risks — regulation, scaling, cannibalization — are monitored with predefined thresholds.
+Two primary risks: Team misalignment and loss of customer trust due to unclear exclusions. Mitigation: Unified squad model, Transparent pre-purchase communication, and Embedded compliance workflow. Other risks — regulation, scaling, cannibalization — are monitored with predefined thresholds.
 
 ---
 
@@ -956,7 +956,7 @@ Trust is not a guardrail. It is a growth driver. Clear exclusions before purchas
 </div>
 
 Notes:
-My role is to align and lead — not micromanage. Joint squad structure. Clear roles. Weekly rituals. Direct sync with underwriting counterpart. The insurer operates as a strategic partner, not a vendor. Speed within guardrails.
+My role is to align and lead — not micromanage. Joint squad structure. Clear roles. Weekly rituals. Direct sync with the underwriting team. The insurer operates as a strategic partner, not a vendor. Speed within guardrails.
 
 ---
 
