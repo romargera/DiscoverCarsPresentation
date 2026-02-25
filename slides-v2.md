@@ -13,6 +13,7 @@
 Notes:
 Good morning. I’m Roman Babunts. Today I’ll walk you through how I would define, validate, and launch a Travel Disruption Protection product at DiscoverCars. I’ll cover the customer problem, the commercial opportunity, the execution plan, and the key risks. Let’s begin.
 
+
 ---
 <!-- .slide: id="agenda" -->
 
@@ -49,7 +50,8 @@ Good morning. I’m Roman Babunts. Today I’ll walk you through how I would def
 </div>
 
 Notes:
-Three parts: What — the problem and the chosen direction. Why — the market opportunity and unit economics. How — execution, risk management, compliance, and alignment. All assumptions are explicitly marked. Before scaling anything, we validate them with real booking and delay data.
+Three parts. What — the problem and the chosen direction. Why — the market opportunity and unit economics. How — execution, risk management, compliance, and alignment. All assumptions are explicitly marked. Before scaling anything, we validate them with real booking and delay data.
+
 
 ---
 <!-- .slide: id="customer-pain" -->
@@ -194,7 +196,8 @@ Three parts: What — the problem and the chosen direction. Why — the market o
 </div>
 
 Notes:
-I started from customer reality. I reviewed recurring complaints and mapped 14 pain points across the rental journey. After prioritizing by expected contribution margin impact, pre-booking friction emerged as the highest-leverage stage. One scenario repeats frequently: Flight delay -> Missed pickup -> No-show fee -> Rebooking at a higher price. That is where value leakage happens. That is our entry point.
+I started from customer reality. I reviewed recurring complaints and mapped 14 pain points across the rental journey. After prioritizing by expected contribution margin impact, pre-booking friction emerged as the highest-leverage stage. One scenario repeats frequently: Flight delay. Missed pickup. No-show fee. Rebooking at a higher price. That is where value leakage happens. That is our entry point.
+
 
 ---
 <!-- .slide: id="vision-roadmap" -->
@@ -330,7 +333,8 @@ I started from customer reality. I reviewed recurring complaints and mapped 14 p
 </div>
 
 Notes:
-I evaluated 10 strategic directions using three criteria: Commercial impact, Effort, and Confidence. Trip Disruption Protection is the strongest first move. It has high margin potential and no direct competitor covering rental costs linked to flight delays. Before full rollout, we validate against actual booking mix and underwriting capacity.
+I evaluated 10 strategic directions using three criteria: Commercial impact. Effort. Confidence. Trip Disruption Protection is the strongest first move. It has high margin potential and no direct competitor covering rental costs linked to flight delays. Before full rollout, we validate against actual booking mix and underwriting capacity.
+
 
 ---
 <!-- .slide: id="chosen-concept" -->
@@ -370,6 +374,7 @@ I evaluated 10 strategic directions using three criteria: Commercial impact, Eff
 
 Notes:
 Let’s make it concrete. A customer lands late due to a flight delay. The rental desk is closed. They lose €350 between penalties and rebooking. The rule is simple: If a verified flight disruption causes a missed pickup, we reimburse rental-related fees. Clear trigger. Clear scope. Rental costs only. Job to be done: Protect my rental money when travel goes wrong.
+
 
 ---
 <!-- .slide: id="market-opportunity" -->
@@ -412,7 +417,8 @@ Let’s make it concrete. A customer lands late due to a flight delay. The renta
 </div>
 
 Notes:
-TAM: approximately €850M globally in airport-linked rentals. After segmentation, the realistic serviceable opportunity is around €11–12M. Projected capture: Year 1 — ~€600K, Year 3 — ~€3.5M+. Before scaling, we validate these projections against: Airport booking mix, Route-specific delay frequency, and The level of risk the insurer is ready to take. This is not risky growth — it’s planned expansion.
+TAM: approximately €850M globally in airport-linked rentals. After segmentation, the realistic serviceable opportunity is around €11–12M. Projected capture: Year 1 — ~€600K Year 3 — ~€3.5M+ Before scaling, we validate these projections against: • Airport booking mix • Route-specific delay frequency • The level of risk the insurer is ready to take This is not risky growth — it’s planned expansion.
+
 
 ---
 <!-- .slide: id="unit-economics" -->
@@ -490,7 +496,8 @@ TAM: approximately €850M globally in airport-linked rentals. After segmentatio
 </div>
 
 Notes:
-Per policy: €7.50 premium, 45% loss ratio, ~€3.50 contribution margin. The 45% target balances profitability and customer trust. If loss ratio goes above 55%, we make triggers stricter or change the price. If it stays under 35%, we expand confidently. Automation through verified flight data keeps operational costs scalable.
+Per policy: €7.50 premium 45% loss ratio ~€3.50 contribution margin The 45% target balances profitability and customer trust. If loss ratio goes above 55%, we make triggers stricter or change the price. If it stays under 35%, we expand confidently. Automation through verified flight data keeps operational costs scalable.
+
 
 ---
 
@@ -601,6 +608,7 @@ Per policy: €7.50 premium, 45% loss ratio, ~€3.50 contribution margin. The 4
 Notes:
 Why start here? This is the highest-margin white space in the funnel. No direct competitor owns it. Customers gain protection. We gain incremental revenue. The insurer keeps stable ratios. Rental partners reduce disputes. It aligns goals across the ecosystem.
 
+
 ---
 
 <!-- .slide: id="execution-roadmap" -->
@@ -652,7 +660,8 @@ Why start here? This is the highest-margin white space in the funnel. No direct 
 </div>
 
 Notes:
-We start small on purpose to mitigate risks and protect economics. Phase 0 — validation and alignment. Phase 1 — UK MVP. Phase 2 — claims data development. Then controlled expansion. Insurance products require claim lag awareness. We build that into the plan from day one.
+We start small on purpose to mitigate risks and protect economics. Phase 0 — validation and alignment Phase 1 — UK MVP Phase 2 — claims data development Then controlled expansion Insurance products require claim lag awareness. We build that into the plan from day one.
+
 
 ---
 
@@ -717,7 +726,8 @@ We start small on purpose to mitigate risks and protect economics. Phase 0 — v
 </div>
 
 Notes:
-The MVP is narrow by design: Airport bookings only, Verified flight delays, Single geography. We test: Standalone add-on vs bundled offering. Clear exclusions shown upfront. We scale only after validating real loss ratio behavior.
+The MVP is narrow by design: Airport bookings only Verified flight delays Single geography We test: Standalone add-on vs bundled offering Clear exclusions shown upfront. We scale only after validating real loss ratio behavior.
+
 
 ---
 
@@ -774,7 +784,8 @@ The MVP is narrow by design: Airport bookings only, Verified flight delays, Sing
 </div>
 
 Notes:
-North Stars: Incremental revenue per booking and Attach rate. Guardrails: No harm to core conversion, Loss ratio between 35–55%, Payout speed, and Complaint rate. If attach stays below 5%, we reprice or pivot. If contribution margin trends positive, we expand. We do not overreact to early data — we wait for mature cohorts.
+North Stars: Incremental revenue per booking Attach rate Guardrails: No harm to core conversion Loss ratio between 35–55% Payout speed Complaint rate If attach stays below 5%, we reprice or pivot. If contribution margin trends positive, we expand. We do not overreact to early data — we wait for mature cohorts.
+
 
 ---
 
@@ -874,7 +885,8 @@ North Stars: Incremental revenue per booking and Attach rate. Guardrails: No har
 </div>
 
 Notes:
-Two primary risks: Team misalignment and loss of customer trust due to unclear exclusions. Mitigation: Unified squad model, Transparent pre-purchase communication, and Embedded compliance workflow. Other risks — regulation, scaling, cannibalization — are monitored with predefined thresholds.
+Two primary risks: Team misalignment and loss of customer trust due to unclear exclusions. Mitigation: Unified squad model Transparent pre-purchase communication Embedded compliance workflow Other risks — regulation, scaling, cannibalization — are monitored with predefined thresholds.
+
 
 ---
 
@@ -920,6 +932,7 @@ Two primary risks: Team misalignment and loss of customer trust due to unclear e
 Notes:
 Trust is not a guardrail. It is a growth driver. Clear exclusions before purchase. Fast payout on verified triggers. Compliance embedded from day zero. Trust improves retention and repeat attach rate.
 
+
 ---
 
 <!-- .slide: id="team-alignment" -->
@@ -958,6 +971,7 @@ Trust is not a guardrail. It is a growth driver. Clear exclusions before purchas
 Notes:
 My role is to align and lead — not micromanage. Joint squad structure. Clear roles. Weekly rituals. Direct sync with the underwriting team. The insurer operates as a strategic partner, not a vendor. Speed within guardrails.
 
+
 ---
 
 <!-- .slide: id="next-steps" -->
@@ -976,4 +990,5 @@ My role is to align and lead — not micromanage. Joint squad structure. Clear r
 </div>
 
 Notes:
-If we move forward: Team alignment session, 4-week validation sprint, Real booking and delay data refinement, Underwriting and regulatory confirmation. After that, we proceed to build.
+If we move forward: Team alignment session 4-week validation sprint Real booking and delay data refinement Underwriting and regulatory confirmation After that, we proceed to build.
+
