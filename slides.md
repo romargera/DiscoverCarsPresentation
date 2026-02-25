@@ -12,10 +12,7 @@
 
 
 Notes:
-[Hold title slide, make eye contact, then begin]
-Good morning/afternoon.
-My name is Roman Babunts, and I'm here to walk you through my solution to the take-home task — how I'd define, validate, and bring a new Travel Protection product to market at DiscoverCars.
-The scope: one week of work. I'll cover the full loop — customer problem, commercial rationale, how I'd build and measure it, and where the real risks sit. Let's go.
+Good morning. I’m Roman Babunts. Today I’ll walk you through how I would define, validate, and launch a Travel Disruption Protection product at DiscoverCars. I’ll cover the customer problem, the commercial opportunity, the execution plan, and the key risks. Let’s begin.
 
 
 ---
@@ -55,8 +52,7 @@ The scope: one week of work. I'll cover the full loop — customer problem, comm
 
 
 Notes:
-Three sections. WHAT — the problem and the chosen direction. WHY — the market opportunity and unit economics. HOW — execution, measurement, risks, compliance, and team alignment.
-One note on data: you'll see the letter "A" throughout the deck — those are my assumptions. I'll always tell you the logic behind each one, and flag exactly which internal data points would sharpen or invalidate them. We can go deep on the math in Q&A.
+Three parts: What — the problem and the chosen direction. Why — the market opportunity and unit economics. How — execution, risk management, compliance, and alignment. All assumptions are explicitly marked. Before scaling anything, we validate them with real booking and delay data.
 
 
 ---
@@ -374,13 +370,7 @@ One note on data: you'll see the letter "A" throughout the deck — those are my
 
 
 Notes:
-Let me make the problem concrete with a real scenario.
-"You booked a car at Malaga Airport three weeks ago. Your flight is delayed six hours. You land at 23:40. The rental desk is closed. The car has been released. €120 no-show fee. Next car is twice the price. Your prepaid booking? Non-refundable. Total out-of-pocket: €350-plus — through no fault of yours."
-[Pause]
-This happens thousands of times a year. Every one of those customers is a DiscoverCars customer.
-The Rule: If a flight delay forces a missed pickup, we reimburse the no-show fee or the non-refundable cancellation penalty.
-Scope: Car rental costs only. Not flights, not hotels. This keeps the product clean, claimable, and compliant from day one.
-Job To Be Done: "Protect my rental money when the airline messes up."
+Let’s make it tangible. A customer lands late due to a flight delay. The rental desk is closed. They lose €350 between penalties and rebooking. The rule is simple: If a verified flight disruption causes a missed pickup, we reimburse rental-related fees. Clear trigger. Clear scope. Rental costs only. Job to be done: Protect my rental money when travel goes wrong.
 
 
 ---
@@ -505,16 +495,7 @@ Job To Be Done: "Protect my rental money when the airline messes up."
 
 
 Notes:
-Here's how a single policy breaks down.
-Line	Amount
-Price (Revenue)	€7.50
-Risk Cost (45% loss ratio)	−€3.38
-Ops & Tech	−€0.62
-Net Margin	€3.50 (47%)
-Why 45% loss ratio? It's the sweet spot for a parametric product — tight enough for healthy margin, generous enough to pay valid claims and build trust. The actual number comes from Sincera's actuarial model and real flight disruption frequency data.
-Key efficiency driver: If the trigger is flight delay data (fully automatable), ops cost per claim goes down as volume goes up. That's the unit economics flywheel.
-Assumptions to validate: We need Sincera's actuaries to model true volume of 4+ hour flight delays on top routes and confirm the 45% LR holds at scale.
-I have a detailed scenario model — bear, base, bull — in the linked spreadsheet. Happy to walk through it in Q&A.
+Per policy: €7.50 premium, 45% loss ratio, ~€3.50 contribution margin. The 45% target balances profitability and customer trust. If loss ratio exceeds 55%, we tighten triggers or reprice. If it stays under 35%, we expand confidently. Automation through verified flight data keeps operational costs scalable.
 
 
 ---
@@ -627,17 +608,7 @@ I have a detailed scenario model — bear, base, bull — in the linked spreadsh
 
 
 Notes:
-Here's the combined view for all stakeholders.
-Why Trip Disruption first?
-* High CM potential with low expected claims frequency
-* Zero competitors offering this product explicitly
-* 48h parametric payout drives retention — trust compounds
-* Every claim = training point for dynamic pricing → margin improves YoY
-Who benefits:
-* Customer: No-show fee covered, rebooking difference covered, prepaid penalty reimbursed. CSAT target 4.2+; complaint rate under 2%.
-* DiscoverCars: €250K CM Year 1 → €2.5M+ by Year 3. Attach rate 15% → 25%.
-* Sincera: 45% loss ratio target, 15% ops cost ratio — sustainable underwriting.
-* Rental Suppliers: Fewer no-show disputes, lower chargeback rate.
+Why start here? This is the highest-margin white space in the funnel. No direct competitor owns it. Customers gain protection. We gain incremental revenue. The insurer maintains sustainable ratios. Rental partners reduce disputes. It aligns incentives across the ecosystem.
 
 
 ---
@@ -692,15 +663,7 @@ Who benefits:
 
 
 Notes:
-Decision: We don't big-bang launch. We run a UK-only MVP, followed by a Canary A/B test.
-Why: Insurance has an 8-week claims lag. You book today, travel next month, claim two weeks later. You don't know your true loss ratio on Day 1. We bake this data maturation phase into the timeline deliberately.
-Impact: We don't scale to EU or US until the Phase 1 cohort proves unit economics hold. Patient scaling prevents expensive rollbacks.
-Phase 0 (Weeks 1–4): PRD, concept validation, stakeholder alignment including Sincera kick-off, design mockups, regulatory checklist. Key output: go/no-go before a single line of production code.
-Phase 1 (Weeks 5–8): Usability testing, MVP build (UK pilot), Sincera API integration, claims flow E2E test.
-Canary (Weeks 9–10): Internal launch, live claims test, Go/No-Go decision.
-Data Maturation (Weeks 11–18): The most underestimated phase in most PM plans. 8-week claim lag. We build this into the timeline deliberately, not as a buffer.
-Full Rollout (Week 19+): 100% UK, then EU and US expansion, Dynamic Pricing V1.
-The UK-first pilot is a deliberate constraint — single regulatory jurisdiction, English-language copy, known consumer behavior. Simplest possible learning environment.
+We deliberately start small to protect unit economics. Phase 0 — validation and alignment. Phase 1 — UK MVP. Phase 2 — claims data maturation. Then controlled expansion. Insurance products require claim lag awareness. We build that into the plan from day one.
 
 
 ---
@@ -768,13 +731,7 @@ The UK-first pilot is a deliberate constraint — single regulatory jurisdiction
 
 
 Notes:
-The MVP is scoped extremely narrow.
-Scope: UK residents, airport bookings, verified flight disruptions only.
-Product tests: Two versions to A/B test — standalone "Trip Disruption" add-on, and a bundle inside "Full Coverage Plus". We want to learn if customers prefer dedicated coverage or a comprehensive package.
-Ops model: Because flight delays are public data, we can verify triggers via API. This drastically reduces Sincera's manual claims review load and keeps ops costs flat as volume scales.
-Coverage rules: Explicit trigger (flight delay ≥ 4h or cancellation), clear payout caps, required proof (flight status API + receipts). Exclusions shown before purchase, not buried in T&Cs.
-Launch: Canary rollout → ramp to 100% UK after positive signals.
-Learning gate: Wait for the 8-week claim cohort before scaling. I will not recommend scaling before we've validated the loss ratio in real conditions.
+The MVP is intentionally narrow: Airport bookings only, Verified flight delays, Single geography. We test: Standalone add-on vs bundled offering. Clear exclusions shown upfront. We scale only after validating real loss ratio behavior.
 
 
 ---
@@ -834,10 +791,7 @@ Learning gate: Wait for the 8-week claim cohort before scaling. I will not recom
 
 
 Notes:
-North Star metrics: Two. New incremental revenue per booking, and Attach Rate.
-Guardrails — six metrics that protect us from bad outcomes. Most critical: zero-harm to core booking conversion, and loss ratio target band 35–55%. If loss ratio exceeds 55%, we reprice or tighten triggers. Plus: Time-to-Pay (P50/P90), dispute/chargeback rate, complaint rate.
-How we learn: A/B tests on copy, placement, pricing — short sprints. Qualitative: heatmaps, customer feedback, custdev. Claims analytics: cohort by booking→trip→claim, denial reasons, fraud flags.
-Pivot signals: Pivot if attach rate stays below 5% after optimization, or support tickets exceed 2% of bookings. Persevere if contribution margin is positive and trending. The discipline: don't over-index on week-1 data. The meaningful cohort arrives at week 11.
+North Stars: Incremental revenue per booking and Attach rate. Guardrails: No harm to core conversion, Loss ratio between 35–55%, Payout speed, and Complaint rate. If attach stays below 5%, we reprice or pivot. If contribution margin trends positive, we expand. We do not overreact to early data — we wait for mature cohorts.
 
 
 ---
@@ -940,14 +894,7 @@ Pivot signals: Pivot if attach rate stays below 5% after optimization, or suppor
 
 
 Notes:
-Nine risks in the model. Two require immediate executive focus.
-Risk #1 — Failed by Misalignment (Score 9/9).
-This is a virtual cross-functional team: DC engineers, designers, legal, Sincera underwriters, claims ops. Misalignment is the top risk.
-Mitigation: One virtual team, shared OKRs, unified dashboard. Sincera isn't a vendor — they're our internal capability. We move as one unit from sprint zero.
-Risk #2 — Exclusions Destroying Trust (Score 9/9).
-A customer files a claim, gets denied on a technicality they didn't know about, posts it everywhere. That's the insurance trust-killer.
-Mitigation: Radical transparency. Exclusions rendered clearly pre-purchase. If a customer doesn't know what they're buying, an eventual denial will churn them forever.
-Other risks flagged: regulatory delays (Sincera leads checklist from Phase 0, not week 8), claims ops scalability, anti-fraud maturity, and cannibalization of Full Coverage — tracked via Net Basket Value.
+Two primary risks: Cross-functional misalignment and Customer trust erosion due to unclear exclusions. Mitigation: Unified squad model, Transparent pre-purchase communication, and Embedded compliance workflow. Other risks — regulation, scaling, cannibalization — are monitored with predefined thresholds.
 
 
 ---
@@ -993,14 +940,7 @@ Other risks flagged: regulatory delays (Sincera leads checklist from Phase 0, no
 
 
 Notes:
-Trust and compliance are not obstacles — they are the product.
-Decision: Eliminate legalese. Automate payouts. Build compliance in from Day 0.
-Why: Regulatory delays kill momentum. Grey products get fined. Compliant products create moats competitors cannot easily knock down.
-Three dimensions:
-Clarity over Confusion. Exclusions flagged before purchase, policy language at a set readability target. No jargon requiring a law degree.
-Certainty over Anxiety. For verified flight delays — data-driven trigger — we target 48-hour parametric payout. Plus a real-time claim status tracker. That one feature alone reduces inbound support load materially.
-Legitimacy over Exposure. Sincera is our built-in underwriting and compliance partner — not an external vendor. The regulatory checklist is a parallel workstream from Phase 0, not a legal review at the end. T&Cs auto-adapt to local law as we expand.
-Trust is not a soft goal — it flows directly to Contribution Margin through higher retention, higher attach on repeat bookings, and lower chargeback rate.
+Trust is not a guardrail. It is a growth driver. Clear exclusions before purchase. Fast payout on verified triggers. Compliance embedded from day zero. Trust improves retention and repeat attach rate.
 
 
 ---
@@ -1040,12 +980,7 @@ Trust is not a soft goal — it flows directly to Contribution Margin through hi
 
 
 Notes:
-This requires horizontal leadership.
-My role: I don't manage Sincera; I align them. It's about clarity and speed, without breaking compliance.
-Team structure: Virtual team format. Joint squads including Sincera from day one. Dedicated channels per project and per functional area. Real-time unblocking is the design.
-Legal/Finance sandbox: Pre-agreed guidelines for rapid copy and pricing iteration. Not every word change goes to a 3-week legal review. We agree on guardrails at the start, then iterate within them.
-Rituals: Weekly syncs for cross-functional alignment, sprint planning for engineering, retros for improvement. Regular 1:1s with tech lead, designer, analytics, and Sincera counterpart.
-One note on Sincera: they're not a vendor — they're our built-in insurance expertise. Underwriting, claims ops, regulatory licensing — that capability sits inside the group. The PM's job is to align incentives and create the conditions for them to operate at their best.
+My role is to align and lead — not micromanage. Joint squad structure. Clear roles. Weekly rituals. Direct sync with underwriting counterpart. The insurer operates as a strategic partner, not a vendor. Speed within guardrails.
 
 
 ---
@@ -1067,9 +1002,5 @@ One note on Sincera: they're not a vendor — they're our built-in insurance exp
 
 
 Notes:
-If we agree to proceed, four concrete next steps:
-1. Team kick-off — align on goals, roles, working rhythm.
-2. Phase 0 — 4-week validation sprint. PM + Designer, working with real users and stakeholders. Output: refined PRD and go/no-go recommendation.
-3. Data sync — pull real airport booking mix and local flight delay frequencies to sharpen the business case.
-4. Sincera sync — lock in regulatory checklist for UK, align on 45% loss ratio target and underwriting appetite.
+If we move forward: Team alignment session, 4-week validation sprint, Real booking and delay data refinement, Underwriting and regulatory confirmation. After that, we proceed to build.
 
